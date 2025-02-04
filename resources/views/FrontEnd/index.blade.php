@@ -46,7 +46,7 @@
                         <div class="navbar nav-menu">
                             <div class="navbar-collapse">
                                 <div class="new_title">
-                                    <h2>New Products</h2>
+                                    <h2>Sản Phẩm Mới</h2>
                                 </div>
                                 <ul class="nav navbar-nav">
                                     <li class="active"><a data-toggle="tab" href="#tab-0">All</a></li>
@@ -297,7 +297,7 @@
                         <div class="slider-items-products">
                             <div class="bestsell-block">
                                 <div class="block-title">
-                                    <h2>Best Sellers</h2>
+                                    <h2>Bán Chạy Nhất</h2>
                                 </div>
                                 <div id="bestsell-slider" class="product-flexslider hidden-buttons">
                                     <div class="slider-items slider-width-col4 products-grid block-content">
@@ -384,8 +384,8 @@
                                                             <div class="action">
                                                                 <button class="button btn-cart add_cart" type="button"
                                                                     title="" data-id_pro="{{ $row->product_id }}"
-                                                                    data-original-title="Add to Cart"><span>Add
-                                                                        to Cart</span> </button>
+                                                                    data-original-title="Add to Cart"><span>Thêm vào Giỏ hàng
+                                                                        </span> </button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -403,7 +403,7 @@
                     <div class="slider-items-products">
                         <div class="new-arrivals-block">
                             <div class="block-title">
-                                <h2>Featured Product</h2>
+                                <h2>Sản phẩm nổi bật</h2>
                             </div>
                             <div id="new-arrivals-slider" class="product-flexslider hidden-buttons">
                                 <div class="home-block-inner"> </div>
@@ -489,8 +489,8 @@
                                                         <div class="action">
                                                             <button class="button btn-cart add_cart" type="button"
                                                                 title="" data-id_pro="{{ $item->product_id }}"
-                                                                data-original-title="Add to Cart"><span>Add to
-                                                                    Cart</span> </button>
+                                                                data-original-title="Add to Cart"><span>Thêm vào Giỏ hàng
+                                                                    </span> </button>
                                                         </div>
                                                     </div>
                                                 </div>
