@@ -384,8 +384,8 @@
                                                             <div class="action">
                                                                 <button class="button btn-cart add_cart" type="button"
                                                                     title="" data-id_pro="{{ $row->product_id }}"
-                                                                    data-original-title="Add to Cart"><span>Add
-                                                                        to Cart</span> </button>
+                                                                    data-original-title="Add to Cart"><span>Thêm vào Giỏ hàng
+                                                                        </span> </button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -489,8 +489,8 @@
                                                         <div class="action">
                                                             <button class="button btn-cart add_cart" type="button"
                                                                 title="" data-id_pro="{{ $item->product_id }}"
-                                                                data-original-title="Add to Cart"><span>Add to
-                                                                    Cart</span> </button>
+                                                                data-original-title="Add to Cart"><span>Thêm vào Giỏ hàng
+                                                                    </span> </button>
                                                         </div>
                                                     </div>
                                                 </div>
