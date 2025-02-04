@@ -378,7 +378,7 @@
                                  <!-- <span class="separator">/</span>
                                  <div class="feature-box last">
                                      <div class="content">
-                                         <h3>Đường dây nóng +(012) 365-6531</h3>
+                                         <h3>Đường dây nóng +(84) 456-6531</h3>
                                      </div>
                                  </div> -->
                              </div>
@@ -463,10 +463,10 @@
                                      <i class="add-icon">&nbsp;</i>123 Main Street, Anytown, <br>
                                      &nbsp;CA 12345 Hoa Kỳ
                                  </địa chỉ>
-                                 <div class="phone-footer"><i class="phone-icon">&nbsp;</i> +(012) 365-6531
+                                 <div class="phone-footer"><i class="phone-icon">&nbsp;</i> +(084) 456-7891
                                  </div>
                                  <div class="email-footer"><i class="email-icon">&nbsp;</i> <a
-                                         href="mailto:abc@magikcommerce.com">abc@magikcommerce.com</a> </div>
+                                         href="mailto:shop@giaydep.com">shop@giaydep.com</a> </div>
                              </div>
                         </div>
                     </div>

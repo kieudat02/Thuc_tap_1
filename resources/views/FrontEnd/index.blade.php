@@ -651,7 +651,7 @@
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member2.jpg') }}"
                                                 alt="testimonials img"> </div>
-                                        <p>Nhân viên phục vụ rất tận tâm và nhiệt tình, họ đã giúp tôi tìm kiếm những món quần áo phù hợp với gu thẩm mỹ của mình. Đặc biệt, dịch vụ giao hàng nhanh chóng và đáng tin cậy.</p>
+                                        <p>Nhân viên phục vụ rất tận tâm và nhiệt tình, họ đã giúp tôi tìm kiếm những món phụ kiện và những đôi Giày phù hợp với gu thẩm mỹ của mình. Đặc biệt, dịch vụ giao hàng nhanh chóng và đáng tin cậy.</p>
                                         <div class="line"></div>
                                         <strong class="name">Mai Linh</strong>
                                     </div>
@@ -659,19 +659,33 @@
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member3.jpg') }}"
                                                 alt="testimonials img"> </div>
-                                        <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop quần áo này. Những mẫu quần áo tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách. Chất liệu tốt và cắt may tỉ mỉ,.</p>
+                                        <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách. Chất liệu tốt,.</p>
                                         <div class="line"></div>
-                                        <strong class="name">John Doe</strong>
+                                        <strong class="name">Thanh Huyền</strong>
                                     </div>
                                     <div class="holder">
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member4.jpg') }}"
                                                 alt="testimonials img"> </div>
-                                        <p>Nhân viên đã tư vấn rất tận tâm, giúp tôi chọn lựa những bộ quần áo phù hợp với phong cách và kích cỡ của mình. Điều đó thực sự làm tôi cảm thấy thoải mái và tự tin khi mặc những sản phẩm từ shop..</p>
+                                        <p>Nhân viên đã tư vấn rất tận tâm, giúp tôi chọn lựa những đôi giày  phù hợp với phong cách và kích cỡ của mình. Điều đó thực sự làm tôi cảm thấy thoải mái và tự tin khi sử dụng những sản phẩm từ shop..</p>
                                         <div class="line"></div>
-                                        <strong class="name">Stephen Doe</strong>
+                                        <strong class="name">Minh Khang</strong>
                                     </div>
+                                    <div class="holder">
+                                        <div class="thumb"> <img
+                                                src="{{ asset('frontend/images/member4.jpg') }}"
+                                                alt="testimonials img"> </div>
+                                        <p>Nhân viên đã tư vấn rất tận tâm, tư vấn rất nhiệt tình về mẫu mã sản phẩm. Điều đó thực sự làm tôi cảm thấy rất hài lòng về những sản phẩm từ shop..</p>
+                                        <div class="line"></div>
+                                        <strong class="name">Đức Đạt</strong>
                                 </div>
+                                <div class="holder">
+                                        <div class="thumb"> <img
+                                                src="{{ asset('frontend/images/member3.jpg') }}"
+                                                alt="testimonials img"> </div>
+                                        <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách. Chất liệu tốt,.</p>
+                                        <div class="line"></div>
+                                        <strong class="name">Vũ Tuấn An</strong>
                             </div>
                         </div>
                     </div>
@@ -697,7 +711,7 @@
     <div class="row">
         <div class="blog-outer-container">
             <div class="block-title">
-                <h2>Latest Blog</h2>
+                <h2>Blog mới nhất</h2>
             </div>
             <div class="blog-inner">
                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -706,17 +720,15 @@
                                 src="{{ asset('frontend/images/blog-img3.jpg') }}" width="550px" height="255.46px"> </a>
                     </div>
                     <div class="blog-preview_info">
-                    <h4 class="blog-preview_title"><a href="blog_single_post.html">Hướng dẫn chọn mua điên thoại</a></h4>
+                    <h4 class="blog-preview_title"><a href="blog_single_post.html">Hướng dẫn chọn giày đá bóng</a></h4>
                          <ul class="post-meta">
                              <li><i class="fa fa-user"></i>được đăng bởi <a href="#">admin</a></li>
                              <li><i class="fa fa-comments"></i><a href="#">8 nhận xét</a></li>
                              <li><i class="fa fa-clock-o"></i><span class="day">12</span> <span
                                      class="tháng">Tháng hai</span></li>
                          </ul>
-                         <div class="blog-preview_desc">Lid est workingum dolo rumes fugats untras. Etharums ser
-                             quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers
-                             nụ cười.</div>
-                         <a class="blog-preview_btn" href="blog_single_post.html">ĐỌC THÊM</a>
+                         <div class="blog-preview_desc">Giày đá bóng là một phụ kiện không thể thiếu đối với các cầu thủ bóng đá. Việc lựa chọn đúng size giày sẽ giúp các cầu thủ có được sự thoải mái, linh hoạt và bảo vệ tốt cho đôi chân của mình. Để có thể chọn được đúng kích cỡ, bạn cần thực hiện một số bước chuẩn bị cần thiết, đo và xác định kiểu chân cũng như kích thước bàn chân.</div>
+                         <a class="blog-preview_btn" href="blog_single_post.html">XEM THÊM</a>
                      </div>
                  </div>
                  <div class="col-lg-6 col-md-6 col-sm-6">
@@ -725,17 +737,17 @@
                          src="{{ asset('frontend/images/blog-img2.jpg') }}" width="550px" height="255.46px"> </a>
                      </div>
                      <div class="blog-preview_info">
-                         <h4 class="blog-preview_title"><a href="#">Top 5 samsung rẻ nhất</a></h4>
+                         <h4 class="blog-preview_title"><a href="#">Top 5 mẫu thiết kế đẹp nhất</a></h4>
                          <ul class="post-meta">
                              <li><i class="fa fa-user"></i>được đăng bởi <a href="#">admin</a></li>
                              <li><i class="fa fa-comments"></i><a href="#">4 nhận xét</a></li>
                              <li><i class="fa fa-clock-o"></i><span class="day">25</span> <span
                                      class="tháng">Tháng 1</span></li>
                          </ul>
-                         <div class="blog-preview_desc">Ut tellus dolor, dapibus eget, elementum vel, cursus
-                             tinh hoa, ưu tú. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.
-                             Donec sit amet eros.</div>
-                         <a class="blog-preview_btn" href="blog_single_post.html">ĐỌC THÊM</a>
+                         <div class="blog-preview_desc">Đến đời thứ 3 thì đã có cực nhiều thay đổi về thiết kế cũng như form giày rồi, Adidas Ultra Boost 3.0 có phần upper cấu trúc hai bên sườn được sửa đổi đôi chút, nhằm tăng khả năng hỗ trợ, ôm chân cũng như độ thoáng khí của giày sneaker.
+
+Hầu hết những tín đồ đều nhận định phiên bản này không quá khác biệt nhiều so với đời thứ 2, tuy nhiên những ai chơi sành thì mới nhận ra sản phẩm có nhiều thay đổi rất tích cực cho người dùng..</div>
+                         <a class="blog-preview_btn" href="blog_single_post.html">XEM THÊM</a>
                      </div>
                 </div>
             </div>
