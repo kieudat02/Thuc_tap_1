@@ -63,7 +63,7 @@
                                 @endif
                                 <div class="box-hover">
                                     <ul class="add-to-links">
-                                        <li><a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                        <li><a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                             data-target="#quickview_product{{ $cate_pro->product_id }}"></a>
                                         </li>
                                         <li>
@@ -144,7 +144,7 @@
     @else
         <h3
             style="text-align: center; color: #eaeaea; font-weight: bold; text-shadow: 1px 1px #b3afaf, -1px -1px #cac6c6;">
-            Product Not Found</h3>
+            Sản phẩm không tìm thấy</h3>
     @endif
 </div>
 @if (count($categoryProduct) > 0)
