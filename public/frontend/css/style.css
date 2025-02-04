@@ -2356,11 +2356,13 @@ nav {
 }
 
 .slider-items-products .owl-buttons .owl-next a {
-    background-position: 100% 100%;
+    /* background-position: 100% 100%;
     top: 50%;
-    padding: 2px;
-    border-left: 4px double #999;
-    background: none;
+    padding: 2px; */
+    /* border-left: 2px double #999; */
+    /* background: none; */
+    margin-left: -41px;
+    margin-top: -5px;
 }
 
 .slider-items-products .owl-buttons .owl-next a:before {
@@ -2388,7 +2390,7 @@ nav {
 }
 
 .slider-items-products .owl-buttons a {
-    display: block;
+    /* display: block;
     height: 18px;
     margin: 0px 0 0 -30px;
     position: absolute;
@@ -2397,13 +2399,22 @@ nav {
     z-index: 5;
     color: #888;
     border: 0px #eaeaea solid;
-    background: none;
+    background: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    color: #1fc0a0;
+    border: 1px solid #1fc0a0;
+    background: transparent;
 }
 
 /*6c. bestsell slider*/
 
 .bestsell-pro .slider-items-products .owl-buttons a {
-    background: inherit;
+    /* background: inherit;
     border: medium none;
     color: #777;
     display: block;
@@ -2413,21 +2424,37 @@ nav {
     top: 50%;
     width: 35px;
     z-index: 5;
-    opacity: 1;
+    opacity: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    color: #1fc0a0;
+    border: 1px solid #1fc0a0;
+    background: transparent;
 }
 
 .bestsell-pro .slider-items-products .owl-buttons .owl-next a {
-    border-left: 4px double #999;
+    /* border-left: 2px double #999; */
+    margin-left: -41px;
+    margin-top: 5px;
 }
 
 .bestsell-pro .slider-items-products .owl-buttons a:hover {
     text-decoration: none;
-    background: inherit;
-    color: #1fc0a0;
+    /* background: inherit;
+    color: #1fc0a0; */
+    background: #1fc0a0;
+    /* color: #ffb900; */
+    cursor: pointer;
 }
 
 .bestsell-pro .slider-items-products .owl-buttons .owl-prev a {
-    border: none;
+    /* border: none; */
+    margin-top: 5px;
+    margin-left: -45px;
 }
 
 .bestsell-pro .slider-items-products .owl-buttons .owl-next {
@@ -2487,14 +2514,20 @@ nav {
 }
 
 .slider-items-products .owl-buttons a:hover {
+    /* text-decoration: none;
+    background: #fff;*/
+    color: #fff;
     text-decoration: none;
-    background: #fff;
-    color: #1fc0a0;
+    background: #1fc0a0;
+    /* color: #ffb900; */
+    cursor: pointer;
 }
 
 .slider-items-products .owl-buttons .owl-prev a {
     background-position: 0 100%;
-    border: 0px #eaeaea solid;
+    border: 1px #1fc0a0 solid;
+    margin-top: -5px;
+    margin-left: -45px;
 }
 
 .bestsell-block {
@@ -2616,7 +2649,6 @@ nav {
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 18px;
-    margin: auto;
     text-transform: uppercase;
 }
 

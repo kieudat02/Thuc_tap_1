@@ -325,7 +325,7 @@
                                                                     @endif
                                                                     <div class="box-hover">
                                                                         <ul class="add-to-links">
-                                                                            <li><a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                                            <li><a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                                                 data-target="#quickview_product{{ $pro_rel->product_id }}"></a></li>
                                                                             <li>
                                                                                 @if (Auth::user())
