@@ -316,7 +316,7 @@
             e.preventDefault();
             $('#Modal_sample').modal('show');
             $('#save').addClass('save_change');
-            $('.modal-title').text('Quick View');
+            $('.modal-title').text('Xem nhanh');
             $('#change_value').addClass('save_change');
 
             var order_code = $(this).data('order');

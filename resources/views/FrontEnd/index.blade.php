@@ -49,7 +49,7 @@
                                     <h2>Sản Phẩm Mới</h2>
                                 </div>
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a data-toggle="tab" href="#tab-0">All</a></li>
+                                    <li class="active"><a data-toggle="tab" href="#tab-0">Tất cả</a></li>
                                     @foreach($new_category as $new_cate)
                                     <li><a data-toggle="tab" href="#tab-{{$new_cate->category_id}}">{{$new_cate->category_name}}</a></li>
                                     @endforeach
@@ -88,7 +88,7 @@
                                                                     <div class="box-hover">
                                                                         <ul class="add-to-links">
                                                                             <li>
-                                                                                <a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                                                <a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                                                 data-target="#quickview_product{{ $item->product_id }}"></a>
                                                                             </li>
                                                                             <li>
@@ -165,7 +165,7 @@
                                                 </ul>
                                             </div>
                                             @else
-                                            <h4 style="text-align: center; color: #777;">Product Not Found</h4>
+                                            <h4 style="text-align: center; color: #777;">Sản phẩm không tìm thấy</h4>
                                             @endif
                                         </div>
                                         <!-- tab product -->
@@ -202,7 +202,7 @@
                                                                     <div class="box-hover">
                                                                         <ul class="add-to-links">
                                                                             <li>
-                                                                                <a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                                                <a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                                                 data-target="#quickview_product{{ $new_pro->product_id }}"></a>
                                                                             </li>
                                                                             <li>
@@ -280,7 +280,7 @@
                                             </div>
                                             @endforeach
                                             @else
-                                            <h4 style="text-align: center; color: #777;">Product Not Found</h4>
+                                            <h4 style="text-align: center; color: #777;">Sản phẩm không tìm thấy</h4>
                                             @endif
                                         </div>
 
@@ -322,7 +322,7 @@
                                                         <div class="box-hover">
                                                             <ul class="add-to-links">
                                                                 <li>
-                                                                    <a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                                    <a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                                         data-target="#quickview_product{{ $row->product_id }}"></a>
                                                                 </li>
                                                                 <li>
@@ -428,7 +428,7 @@
                                                     <div class="box-hover">
                                                         <ul class="add-to-links">
                                                             <li>
-                                                                <a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                                <a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                         data-target="#quickview_product{{ $item->product_id }}"></a>
                                                             </li>
                                                             <li>
@@ -567,7 +567,7 @@
                                         <div class="box-hover">
                                             <ul class="add-to-links">
                                                 <li>
-                                                    <a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                    <a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                         data-target="#quickview_product{{ $item->product_id }}"></a>
                                                 </li>
                                                 <li>
