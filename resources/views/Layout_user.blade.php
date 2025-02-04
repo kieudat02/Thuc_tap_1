@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <!-- Favicons Icon -->
     
-    <title>Giay - @yield('title')</title>
+    <title>HanoiSneaker® Official(Chính Thức) - @yield('title')</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
