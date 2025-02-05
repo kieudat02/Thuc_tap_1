@@ -223,8 +223,8 @@
                                                                     </div>
                                                                     <div class="action">
                                                                         <button class="button btn-cart add_cart" data-id_pro="{{ $pro_may->product_id }}" type="button" title=""
-                                                                            data-original-title="Thêm Vào Giỏ"><span>Add to
-                                                                                Cart</span> </button>
+                                                                            data-original-title="Thêm Vào Giỏ"><span>Thêm vào giỏ hàng
+                                                                                </span> </button>
                                                                     </div>
                                                                 </div>
                                                             </div>

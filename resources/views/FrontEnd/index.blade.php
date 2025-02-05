@@ -1,4 +1,4 @@
-@extends('Layout_user')
+ @extends('Layout_user')
 @section('title')
   Home
 @endsection
@@ -639,7 +639,7 @@
                                 <div class="slider-items slider-width-col4 fadeInUp">
                                     <div class="holder">
                                         <div class="thumb"> <img
-                                                src="{{ asset('frontend/images/member1.jpg') }}"
+                                                src="{{ asset('frontend/images/member5.jpg') }}"
                                                 alt="testimonials img" width="100px" height="100px"> </div>
                                         <p>Wow, tôi không thể không khen shop điện thoại này! Tôi đã có trải nghiệm mua sắm tuyệt vời tại đây. Sự đa dạng và phong cách của sản phẩm thật sự đáng ngạc nhiên. Điện thoại cao cấp và thiết kế tinh tế làm cho từng món đồ trở nên độc đáo và phong cách. .</p>
                                         <div class="line"></div>
@@ -647,7 +647,7 @@
                                     </div>
                                     <div class="holder">
                                         <div class="thumb"> <img
-                                                src="{{ asset('frontend/images/member2.jpg') }}"
+                                                src="{{ asset('frontend/images/member6.jpg') }}"
                                                 alt="testimonials img"> </div>
                                         <p>Nhân viên phục vụ rất tận tâm và nhiệt tình, họ đã giúp tôi tìm kiếm những món phụ kiện và những đôi Giày phù hợp với gu thẩm mỹ của mình. Đặc biệt, dịch vụ giao hàng nhanh chóng và đáng tin cậy.</p>
                                         <div class="line"></div>
@@ -655,7 +655,7 @@
                                     </div>
                                     <div class="holder">
                                         <div class="thumb"> <img
-                                                src="{{ asset('frontend/images/member3.jpg') }}"
+                                                src="{{ asset('frontend/images/member7.jpg') }}"
                                                 alt="testimonials img"> </div>
                                         <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách. Chất liệu tốt,.</p>
                                         <div class="line"></div>
@@ -663,7 +663,7 @@
                                     </div>
                                     <div class="holder">
                                         <div class="thumb"> <img
-                                                src="{{ asset('frontend/images/member4.jpg') }}"
+                                                src="{{ asset('frontend/images/member8.jpg') }}"
                                                 alt="testimonials img"> </div>
                                         <p>Nhân viên đã tư vấn rất tận tâm, giúp tôi chọn lựa những đôi giày  phù hợp với phong cách và kích cỡ của mình. Điều đó thực sự làm tôi cảm thấy thoải mái và tự tin khi sử dụng những sản phẩm từ shop..</p>
                                         <div class="line"></div>
@@ -671,7 +671,7 @@
                                     </div>
                                     <div class="holder">
                                         <div class="thumb"> <img
-                                                src="{{ asset('frontend/images/member4.jpg') }}"
+                                                src="{{ asset('frontend/images/member6.jpg') }}"
                                                 alt="testimonials img"> </div>
                                         <p>Nhân viên đã tư vấn rất tận tâm, tư vấn rất nhiệt tình về mẫu mã sản phẩm. Điều đó thực sự làm tôi cảm thấy rất hài lòng về những sản phẩm từ shop..</p>
                                         <div class="line"></div>
@@ -679,7 +679,7 @@
                                 </div>
                                 <div class="holder">
                                         <div class="thumb"> <img
-                                                src="{{ asset('frontend/images/member3.jpg') }}"
+                                                src="{{ asset('frontend/images/member5.jpg') }}"
                                                 alt="testimonials img"> </div>
                                         <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách. Chất liệu tốt,.</p>
                                         <div class="line"></div>
