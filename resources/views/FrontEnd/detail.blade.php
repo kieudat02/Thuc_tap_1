@@ -17,14 +17,14 @@
                             $cateparent2 = App\Category::where('category_id',$cateparent->category_sub)->first();
                         @endphp
                         @if ($cateparent2)
-                        <li><a href="#" title="" style="text-transform: lowercase;">{{ $cateparent2->category_name }}</a><span>/</span></li>
+                        <li><a href="#" title="" >{{ $cateparent2->category_name }}</a><span>/</span></li>
                         @endif
                         @if ($cateparent)
-                        <li><a href="#" title="" style="text-transform: lowercase;">{{ $cateparent->category_name }}</a><span>/</span></li>
+                        <li><a href="#" title="" >{{ $cateparent->category_name }}</a><span>/</span></li>
                         @endif
                         @endif
-                        <li><a href="#" title="" style="text-transform: lowercase;">{{ $product_detail->cate_product->category_name }}</a><span>/</span></li>
-                        <li><strong style="text-transform: lowercase;">{{ $product_detail->product_name }}</strong></li>
+                        <li><a href="#" title="" >{{ $product_detail->cate_product->category_name }}</a><span>/</span></li>
+                        <li><strong >{{ $product_detail->product_name }}</strong></li>
                     </ul>
                 </div>
                 <!-- Breadcrumbs End -->
@@ -126,7 +126,7 @@
                                         <div class="add-to-box">
                                             <div class="add-to-cart">
                                                 <div class="pull-left">
-                                                    <div class="custom pull-left"> <span class="qty-label">QTY:</span>
+                                                    <div class="custom pull-left"> <span class="qty-label">Số lượng</span>
                                                         <button
                                                             onClick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 0 ) result.value--;return false;"
                                                             class="reduced items-count" type="button"><i

@@ -875,7 +875,7 @@
                                             <div class="add-to-box">
                                                 <div class="add-to-cart">
                                                     <div class="pull-left">
-                                                        <div class="custom pull-left"> <span class="qty-label">QTY:</span>
+                                                        <div class="custom pull-left"> <span class="qty-label">Số lượng</span>
                                                             <button
                                                                 onClick="var result = document.getElementById('qty{{ $pro_show->product_id }}'); var qty = result.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 0 ) result.value--;return false;"
                                                                 class="reduced items-count" type="button"><i
