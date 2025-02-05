@@ -143,14 +143,13 @@
                                                 </div>
                                                 <button class="button btn-cart"
                                                     {{ $product_detail->product_quantity > 0 ? '' : 'disabled' }}
-                                                    title="Add to Cart" type="submit">Add to
-                                                    Cart</button>
+                                                    title="Add to Cart" type="submit">Thêm Vào Giỏ Hàng</button>
                                             </div>
 
 
                                         </div>
                                         <div class="short-description" style="text-align: justify;">
-                                            <h2>Quick Overview</h2>
+                                            <h2>Tổng quan nhanh</h2>
                                             {!! substr($product_detail->product_desc, 0, 450) !!}...
                                         </div>
                                         <div class="email-addto-box">

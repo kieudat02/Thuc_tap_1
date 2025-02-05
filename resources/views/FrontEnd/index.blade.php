@@ -620,7 +620,7 @@
                                             </div>
                                             <div class="action">
                                                 <button data-original-title="Add to Cart" title="" type="button" data-id_pro="{{ $item->product_id }}"
-                                                    class="button btn-cart add_cart"><span>Add to Cart</span> </button>
+                                                    class="button btn-cart add_cart"><span>Thêm Vào Giỏ Hàng</span> </button>
                                             </div>
                                         </div>
                                     </div>

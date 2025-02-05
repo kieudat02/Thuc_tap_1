@@ -90,14 +90,14 @@
                 </li>
 
                 <li class="{{ route('dashboard.index')==$url_canonical ? 'active' : '' }}">
-                    <a href="{{route('dashboard.index')}}"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span></a>
+                    <a href="{{route('dashboard.index')}}"><i class="fa fa-th-large"></i> <span class="nav-label">Bảng điều khiển</span></a>
                 </li>
                 <li class="{{ route('account.index')==$url_canonical || route('account.create')==$url_canonical ? 'active' : '' }}">
-                    <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Account</span><span class="fa arrow"></span></a>
+                    <a href="#"><i class="fa fa-user"></i> <span class="nav-label">Tài khoản</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li class="{{ route('account.index')==$url_canonical ? 'active' : '' }}"><a href="{{route('account.index')}}">List Account</a></li>
+                        <li class="{{ route('account.index')==$url_canonical ? 'active' : '' }}"><a href="{{route('account.index')}}">Danh sách tài khoản</a></li>
                         @if (route('account.index')==$url_canonical)
-                            <li><a id="add_account">Add Account</a></li>
+                            <li><a id="add_account">Thêm tài khoản</a></li>
                         @endif
 
                     </ul>
@@ -107,7 +107,7 @@
                 >
                     <a href="#"><i class="fa fa-inbox"></i> <span class="nav-label">Sản Phẩm</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li  class="{{ route('product.index')==$url_canonical ? 'active' : '' }}"><a href="{{ route('product.index') }}">List Product</a></li>
+                        <li  class="{{ route('product.index')==$url_canonical ? 'active' : '' }}"><a href="{{ route('product.index') }}">Danh sách sản phẩm</a></li>
                         @if (Session::get('gallery_session') )
                             <li class="{{ route('product-gallery.show',[Session::get('gallery_session')])==$url_canonical ? 'active' : '' }}"><a  href="{{ $url_canonical }}">Gallery "{{$name_product->product_name}}"</a></li>
                         @endif
@@ -117,26 +117,26 @@
                 <li  class="{{ route('product.index')==$url_canonical || route('product-gallery.index')==$url_canonical  ? 'active' : '' }}">
                     <a href="#"><i class="fa fa-inbox"></i> <span class="nav-label">Sản Phẩm</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li  class="{{ route('product.index')==$url_canonical ? 'active' : '' }}"><a href="{{ route('product.index') }}">List Product</a></li>
+                        <li  class="{{ route('product.index')==$url_canonical ? 'active' : '' }}"><a href="{{ route('product.index') }}">Danh sách sản phẩm</a></li>
                     </ul>
                 </li>
                 @endif
                 <li class="{{ route('category.index')==$url_canonical ? 'active' : '' }}">
                     <a href="#"><i class="fa fa-certificate"></i> <span class="nav-label">Danh Mục</span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li class="{{ route('category.index')==$url_canonical ? 'active' : '' }}"><a href="{{ route('category.index') }}">List Category</a></li>
+                        <li class="{{ route('category.index')==$url_canonical ? 'active' : '' }}"><a href="{{ route('category.index') }}">Danh mục danh sách</a></li>
                         @if (route('category.index')==$url_canonical)
-                            <li><a id="add_category">Add Category</a></li>
+                            <li><a id="add_category">Thêm danh mục</a></li>
                         @endif
                     </ul>
                 </li>
 
                 <li class="{{ route('slider.index')==$url_canonical ? 'active' : '' }}">
-                    <a href=""><i class="fa fa-slideshare"></i> <span class="nav-label">Slider </span><span class="fa arrow"></span></a>
+                    <a href=""><i class="fa fa-slideshare"></i> <span class="nav-label">Thanh trượt </span><span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li class="{{ route('slider.index')==$url_canonical ? 'active' : '' }}"><a href="{{ route('slider.index') }}">List Slider</a></li>
+                        <li class="{{ route('slider.index')==$url_canonical ? 'active' : '' }}"><a href="{{ route('slider.index') }}">Thanh trượt danh sách</a></li>
                         @if (route('slider.index')==$url_canonical)
-                            <li><a id="add_slider">Add Slider</a></li>
+                            <li><a id="add_slider">Thêm thanh trượt</a></li>
                         @endif
                     </ul>
                 </li>
