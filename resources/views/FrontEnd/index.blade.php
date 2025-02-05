@@ -18,10 +18,10 @@
                             <li data-transition="random">
                                 <img src="{{ asset('uploads/slider/'.$row->slider_image ) }}" alt="Ocean" class="rev-slidebg" width="847.5px" height="433px">
                                 <div class="info {{ $row->slider_change == 1 ? 'slide2' : ''}}">
-                                    <div class='tp-caption ExtraLargeTitle sft tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1100' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'><span>{{ $row->slider_name }}</span> </div>
+                                    <!-- <div class='tp-caption ExtraLargeTitle sft tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1100' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'><span>{{ $row->slider_name }}</span> </div>
                                     <div class='tp-caption LargeTitle sfl  tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1300' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'>{{ $row->slider_content }}</div>
-                                    <div class='tp-caption Title sft  tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1500' data-easing='Power2.easeInOut' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'>{{ $row->slider_desc }}</div>
-                                    <div class='tp-caption sfb  tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1500' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'><a href='{{ $row->slider_url }}' class="buy-btn">Buy Now</a> </div>
+                                    <div class='tp-caption Title sft  tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1500' data-easing='Power2.easeInOut' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'>{{ $row->slider_desc }}</div> -->
+                                    <!-- <div class='tp-caption sfb  tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1500' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'><a href='{{ $row->slider_url }}' class="buy-btn">Buy Now</a> </div> -->
                                 </div>
                             </li>
                             @endforeach
@@ -716,24 +716,26 @@
             <div class="blog-inner">
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="entry-thumb image-hover2">
-                        <a href="blog_single_post.html"> <img alt="Blog"
+                        <a href="#!"> <img alt="Blog"
                                 src="{{ asset('frontend/images/blog-img3.jpg') }}" width="550px" height="255.46px"> </a>
                     </div>
                     <div class="blog-preview_info">
-                    <h4 class="blog-preview_title"><a href="blog_single_post.html">Hướng dẫn chọn giày đá bóng</a></h4>
+
+                    <h4 class="blog-preview_title"><a href="#!">Hướng dẫn chọn giày đá bóng</a></h4>
+
                          <ul class="post-meta">
                              <li><i class="fa fa-user"></i>được đăng bởi <a href="#">admin</a></li>
                              <li><i class="fa fa-comments"></i><a href="#">8 nhận xét</a></li>
                              <li><i class="fa fa-clock-o"></i><span class="day">12</span> <span
-                                     class="tháng">Tháng hai</span></li>
+                                     class="tháng">Tháng 2</span></li>
                          </ul>
                          <div class="blog-preview_desc">Giày đá bóng là một phụ kiện không thể thiếu đối với các cầu thủ bóng đá. Việc lựa chọn đúng size giày sẽ giúp các cầu thủ có được sự thoải mái, linh hoạt và bảo vệ tốt cho đôi chân của mình. Để có thể chọn được đúng kích cỡ, bạn cần thực hiện một số bước chuẩn bị cần thiết, đo và xác định kiểu chân cũng như kích thước bàn chân.</div>
-                         <a class="blog-preview_btn" href="blog_single_post.html">XEM THÊM</a>
+                         <a class="blog-preview_btn" href="#!">XEM THÊM</a>
                      </div>
                  </div>
                  <div class="col-lg-6 col-md-6 col-sm-6">
                      <div class="entry-thumb image-hover2">
-                         <a href="blog_single_post.html"> <img alt="Blog"
+                         <a href="#!"> <img alt="Blog"
                          src="{{ asset('frontend/images/blog-img2.jpg') }}" width="550px" height="255.46px"> </a>
                      </div>
                      <div class="blog-preview_info">
@@ -747,7 +749,7 @@
                          <div class="blog-preview_desc">Đến đời thứ 3 thì đã có cực nhiều thay đổi về thiết kế cũng như form giày rồi, Adidas Ultra Boost 3.0 có phần upper cấu trúc hai bên sườn được sửa đổi đôi chút, nhằm tăng khả năng hỗ trợ, ôm chân cũng như độ thoáng khí của giày sneaker.
 
 Hầu hết những tín đồ đều nhận định phiên bản này không quá khác biệt nhiều so với đời thứ 2, tuy nhiên những ai chơi sành thì mới nhận ra sản phẩm có nhiều thay đổi rất tích cực cho người dùng..</div>
-                         <a class="blog-preview_btn" href="blog_single_post.html">XEM THÊM</a>
+                         <a class="blog-preview_btn" href="#!">XEM THÊM</a>
                      </div>
                 </div>
             </div>
