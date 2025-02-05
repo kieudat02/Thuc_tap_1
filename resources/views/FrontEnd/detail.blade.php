@@ -391,9 +391,7 @@
                                                                         <div class="action">
                                                                             <button class="button btn-cart" type="button"
                                                                                 title="" data-original-title="Add to Cart"
-                                                                                {{ $pro_rel->product_quantity > 0 ? '' : 'disabled' }}><span>Add
-                                                                                    to
-                                                                                    Cart</span> </button>
+                                                                                {{ $pro_rel->product_quantity > 0 ? '' : 'disabled' }}><span>Thêm vào giỏ hàng</span> </button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
