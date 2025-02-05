@@ -1,4 +1,4 @@
-@extends('Layout_user')
+ @extends('Layout_user')
 @section('title')
   Home
 @endsection
