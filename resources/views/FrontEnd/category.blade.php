@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <article class="col-main" id="table_data">
-                        @include('FrontEnd.cate_include');
+                        @include('FrontEnd.cate_include')
                     </article>
                     <!--	///*///======    End article  ========= //*/// -->
                 </div>
