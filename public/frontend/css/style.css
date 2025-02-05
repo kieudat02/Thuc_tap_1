@@ -5073,6 +5073,7 @@ a.button.detail-bnt span {
     line-height: 20px;
     padding-bottom: 15px;
     letter-spacing: 0.5px;
+    text-align: justify;
 }
 
 .blog-preview_btn {
