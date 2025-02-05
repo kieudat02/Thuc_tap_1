@@ -47,10 +47,13 @@ class HomeController extends Controller
 
         $slider = Slider::where('slider_status',1)->orderBy('slider_sorting','asc')->get();
         $new_category = Category::whereNull('category_sub')->where('category_status',1)->take(4)->inRandomOrder()->get();
-        $all_product = Products::whereBetween('created_at', [$startWeek,$endWeek])
-                                ->where('product_status',1)
-                                ->take(4)->inRandomOrder()
-                                ->get();
+        // $all_product = Products::whereBetween('created_at', [$startWeek,$endWeek])
+        //                         ->where('product_status',1)
+        //                         ->take(4)->inRandomOrder()
+        //                         ->get();
+        $all_product = Products::where('product_status', 1) // Chỉ lấy sản phẩm hiển thị
+                        ->orderBy('created_at', 'desc') // Sắp xếp sản phẩm mới nhất
+                        ->get();
         $best_product = Products::where('product_status',1)->where('product_sold','!=',0)->inRandomOrder()->get();
         $featured_product = Products::where('product_status',1)->orderBy('product_view','desc')->inRandomOrder()->get();
 
