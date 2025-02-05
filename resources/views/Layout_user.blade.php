@@ -393,7 +393,7 @@
         @yield('content')
         <!-- Footer -->
         <footer class="footer">
-            <div class="newsletter-wrap">
+            <!-- <div class="newsletter-wrap">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
@@ -412,7 +412,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!--newsletter-->
             <div class="footer-middle">
                 <div class="container">
