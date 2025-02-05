@@ -641,7 +641,7 @@
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member5.jpg') }}"
                                                 alt="testimonials img" width="100px" height="100px"> </div>
-                                        <p>Wow, tôi không thể không khen shop điện thoại này! Tôi đã có trải nghiệm mua sắm tuyệt vời tại đây. Sự đa dạng và phong cách của sản phẩm thật sự đáng ngạc nhiên. Điện thoại cao cấp và thiết kế tinh tế làm cho từng món đồ trở nên độc đáo và phong cách. .</p>
+                                        <p>Wow, tôi không thể không khen shop điện thoại này! Tôi đã có trải nghiệm mua sắm tuyệt vời tại đây. Sự đa dạng và phong cách của sản phẩm thật sự đáng ngạc nhiên. Điện thoại cao cấp và thiết kế tinh tế làm cho từng món đồ trở nên độc đáo và phong cách.</p>
                                         <div class="line"></div>
                                         <strong class="name">Minh Tâm</strong>
                                     </div>
@@ -657,7 +657,7 @@
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member7.jpg') }}"
                                                 alt="testimonials img"> </div>
-                                        <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách. Chất liệu tốt,.</p>
+                                        <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách.</p>
                                         <div class="line"></div>
                                         <strong class="name">Thanh Huyền</strong>
                                     </div>
@@ -665,7 +665,7 @@
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member8.jpg') }}"
                                                 alt="testimonials img"> </div>
-                                        <p>Nhân viên đã tư vấn rất tận tâm, giúp tôi chọn lựa những đôi giày  phù hợp với phong cách và kích cỡ của mình. Điều đó thực sự làm tôi cảm thấy thoải mái và tự tin khi sử dụng những sản phẩm từ shop..</p>
+                                        <p>Nhân viên đã tư vấn rất tận tâm, giúp tôi chọn lựa những đôi giày  phù hợp với phong cách và kích cỡ của mình. Điều đó thực sự làm tôi cảm thấy thoải mái và tự tin khi sử dụng những sản phẩm từ shop.</p>
                                         <div class="line"></div>
                                         <strong class="name">Minh Khang</strong>
                                     </div>
@@ -673,7 +673,7 @@
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member6.jpg') }}"
                                                 alt="testimonials img"> </div>
-                                        <p>Nhân viên đã tư vấn rất tận tâm, tư vấn rất nhiệt tình về mẫu mã sản phẩm. Điều đó thực sự làm tôi cảm thấy rất hài lòng về những sản phẩm từ shop..</p>
+                                        <p>Nhân viên đã tư vấn rất tận tâm, tư vấn rất nhiệt tình về mẫu mã sản phẩm. Điều đó thực sự làm tôi cảm thấy rất hài lòng về những sản phẩm từ shop.</p>
                                         <div class="line"></div>
                                         <strong class="name">Đức Đạt</strong>
                                 </div>
@@ -681,7 +681,7 @@
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member5.jpg') }}"
                                                 alt="testimonials img"> </div>
-                                        <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách. Chất liệu tốt,.</p>
+                                        <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách.</p>
                                         <div class="line"></div>
                                         <strong class="name">Vũ Tuấn An</strong>
                             </div>
