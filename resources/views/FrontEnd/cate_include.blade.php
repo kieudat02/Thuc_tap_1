@@ -147,7 +147,7 @@
             Sản phẩm không tìm thấy</h3>
     @endif
 </div>
-@if (count($categoryProduct) > 0)
+<!-- @if (count($categoryProduct) > 0)
     <div class="toolbar">
         <div class="display-product-option">
             <div class="pages">
@@ -184,4 +184,4 @@
             </div>
         </div>
     </div>
-@endif
+@endif -->

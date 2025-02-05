@@ -99,7 +99,7 @@ class HomeController extends Controller
         $data = request()->search;
         $select = 30;
         $header_id = 'Search';
-        $header_name = 'Search: "'.$data.'"';
+        $header_name = "$data";
         $categoryProduct = Products::where('product_status',1)->where('product_name','LIKE','%'.$data.'%')
                                     ->orWhere('product_price','LIKE','%'.$data.'%')
                                     ->orWhere('product_price_sale','LIKE','%'.$data.'%')
