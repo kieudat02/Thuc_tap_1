@@ -3150,9 +3150,9 @@ nav {
 }
 
 .side-banner img {
-    /* max-width: 100%; */
-    width: 262px;
-    height: 444px;
+    max-width: 100%;
+    /* width: 262px;
+    height: 444px; */
 }
 
 /*========== 7. Products Grid ==========*/
