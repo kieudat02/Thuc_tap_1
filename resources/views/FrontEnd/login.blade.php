@@ -29,7 +29,7 @@
                      <p>Nếu bạn có tài khoản với chúng tôi, vui lòng đăng nhập.</p>
                      <ul class="form-list">
                          <li>
-                         <label for="email">Địa chỉ Email <span class="required">*</span></label>
+                         <label for="email">Tên người dùng <span class="required">*</span></label>
                          <input type="text" title="Email Address" class="input-text required-entry" id="email" value="{{old('email_login')}}" name="email_login">
                          </li>
                          <li>

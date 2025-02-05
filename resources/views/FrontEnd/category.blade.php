@@ -20,17 +20,17 @@
                                         $cateparent2 = App\Category::where('category_id', $cateparent->category_sub)->first();
                                     @endphp
                                     @if ($cateparent2)
-                                        <li style="text-transform: lowercase;" class="category1599"> <a href=""
+                                        <li  class="category1599"> <a href=""
                                                 title="">{{ $cateparent2->category_name }}</a> <span>/ </span> </li>
                                     @endif
                                     @if ($cateparent)
-                                        <li style="text-transform: lowercase;" class="category1600"> <a href=""
+                                        <li  class="category1600"> <a href=""
                                                 title="">{{ $cateparent->category_name }}</a> <span>/</span> </li>
                                     @endif
                                 @endif
                             @endforeach
 
-                            <li style="text-transform: lowercase;" class="category1600"> <a href=""
+                            <li  class="category1600"> <a href=""
                                     title="">{{ $header_name }}</a> </li>
                         </ul>
                     </div>

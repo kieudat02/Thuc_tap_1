@@ -18,10 +18,10 @@
                             <li data-transition="random">
                                 <img src="{{ asset('uploads/slider/'.$row->slider_image ) }}" alt="Ocean" class="rev-slidebg" width="847.5px" height="433px">
                                 <div class="info {{ $row->slider_change == 1 ? 'slide2' : ''}}">
-                                    <div class='tp-caption ExtraLargeTitle sft tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1100' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'><span>{{ $row->slider_name }}</span> </div>
+                                    <!-- <div class='tp-caption ExtraLargeTitle sft tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1100' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'><span>{{ $row->slider_name }}</span> </div>
                                     <div class='tp-caption LargeTitle sfl  tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1300' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'>{{ $row->slider_content }}</div>
-                                    <div class='tp-caption Title sft  tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1500' data-easing='Power2.easeInOut' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'>{{ $row->slider_desc }}</div>
-                                    <div class='tp-caption sfb  tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1500' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'><a href='{{ $row->slider_url }}' class="buy-btn">Buy Now</a> </div>
+                                    <div class='tp-caption Title sft  tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1500' data-easing='Power2.easeInOut' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'>{{ $row->slider_desc }}</div> -->
+                                    <!-- <div class='tp-caption sfb  tp-resizeme ' data-endspeed='500' data-speed='500' data-start='1500' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1'><a href='{{ $row->slider_url }}' class="buy-btn">Buy Now</a> </div> -->
                                 </div>
                             </li>
                             @endforeach
@@ -46,10 +46,10 @@
                         <div class="navbar nav-menu">
                             <div class="navbar-collapse">
                                 <div class="new_title">
-                                    <h2>New Products</h2>
+                                    <h2>Sản Phẩm Mới</h2>
                                 </div>
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a data-toggle="tab" href="#tab-0">All</a></li>
+                                    <li class="active"><a data-toggle="tab" href="#tab-0">Tất cả</a></li>
                                     @foreach($new_category as $new_cate)
                                     <li><a data-toggle="tab" href="#tab-{{$new_cate->category_id}}">{{$new_cate->category_name}}</a></li>
                                     @endforeach
@@ -88,7 +88,7 @@
                                                                     <div class="box-hover">
                                                                         <ul class="add-to-links">
                                                                             <li>
-                                                                                <a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                                                <a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                                                 data-target="#quickview_product{{ $item->product_id }}"></a>
                                                                             </li>
                                                                             <li>
@@ -153,8 +153,7 @@
                                                                         <div class="action">
                                                                             <button class="button btn-cart add_cart"
                                                                                 type="button" title="" data-id_pro="{{ $item->product_id }}"
-                                                                                data-original-title="Add to Cart"><span>Add
-                                                                                    to Cart</span> </button>
+                                                                                data-original-title="Add to Cart"><span>Thêm vào giỏ hàng</span> </button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -165,7 +164,7 @@
                                                 </ul>
                                             </div>
                                             @else
-                                            <h4 style="text-align: center; color: #777;">Product Not Found</h4>
+                                            <h4 style="text-align: center; color: #777;">Sản phẩm không tìm thấy</h4>
                                             @endif
                                         </div>
                                         <!-- tab product -->
@@ -202,7 +201,7 @@
                                                                     <div class="box-hover">
                                                                         <ul class="add-to-links">
                                                                             <li>
-                                                                                <a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                                                <a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                                                 data-target="#quickview_product{{ $new_pro->product_id }}"></a>
                                                                             </li>
                                                                             <li>
@@ -268,8 +267,7 @@
                                                                         <div class="action">
                                                                             <button class="button btn-cart add_cart"
                                                                                 type="button" title="" data-id_pro="{{ $new_pro->product_id }}"
-                                                                                data-original-title="Add to Cart"><span>Add
-                                                                                    to Cart</span> </button>
+                                                                                data-original-title="Add to Cart"><span>Thêm vào giỏ hàng</span> </button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -280,7 +278,7 @@
                                             </div>
                                             @endforeach
                                             @else
-                                            <h4 style="text-align: center; color: #777;">Product Not Found</h4>
+                                            <h4 style="text-align: center; color: #777;">Sản phẩm không tìm thấy</h4>
                                             @endif
                                         </div>
 
@@ -297,7 +295,7 @@
                         <div class="slider-items-products">
                             <div class="bestsell-block">
                                 <div class="block-title">
-                                    <h2>Best Sellers</h2>
+                                    <h2>Bán Chạy Nhất</h2>
                                 </div>
                                 <div id="bestsell-slider" class="product-flexslider hidden-buttons">
                                     <div class="slider-items slider-width-col4 products-grid block-content">
@@ -322,7 +320,7 @@
                                                         <div class="box-hover">
                                                             <ul class="add-to-links">
                                                                 <li>
-                                                                    <a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                                    <a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                                         data-target="#quickview_product{{ $row->product_id }}"></a>
                                                                 </li>
                                                                 <li>
@@ -384,8 +382,8 @@
                                                             <div class="action">
                                                                 <button class="button btn-cart add_cart" type="button"
                                                                     title="" data-id_pro="{{ $row->product_id }}"
-                                                                    data-original-title="Add to Cart"><span>Add
-                                                                        to Cart</span> </button>
+                                                                    data-original-title="Add to Cart"><span>Thêm vào Giỏ hàng
+                                                                        </span> </button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -403,7 +401,7 @@
                     <div class="slider-items-products">
                         <div class="new-arrivals-block">
                             <div class="block-title">
-                                <h2>Featured Product</h2>
+                                <h2>Sản phẩm nổi bật</h2>
                             </div>
                             <div id="new-arrivals-slider" class="product-flexslider hidden-buttons">
                                 <div class="home-block-inner"> </div>
@@ -428,7 +426,7 @@
                                                     <div class="box-hover">
                                                         <ul class="add-to-links">
                                                             <li>
-                                                                <a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                                <a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                         data-target="#quickview_product{{ $item->product_id }}"></a>
                                                             </li>
                                                             <li>
@@ -489,8 +487,8 @@
                                                         <div class="action">
                                                             <button class="button btn-cart add_cart" type="button"
                                                                 title="" data-id_pro="{{ $item->product_id }}"
-                                                                data-original-title="Add to Cart"><span>Add to
-                                                                    Cart</span> </button>
+                                                                data-original-title="Add to Cart"><span>Thêm vào Giỏ hàng
+                                                                    </span> </button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -567,7 +565,7 @@
                                         <div class="box-hover">
                                             <ul class="add-to-links">
                                                 <li>
-                                                    <a class="link-quickview" href="#" title="quick view" data-toggle="modal"
+                                                    <a class="link-quickview" href="#" title="Xem nhanh" data-toggle="modal"
                                                         data-target="#quickview_product{{ $item->product_id }}"></a>
                                                 </li>
                                                 <li>
@@ -651,7 +649,7 @@
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member2.jpg') }}"
                                                 alt="testimonials img"> </div>
-                                        <p>Nhân viên phục vụ rất tận tâm và nhiệt tình, họ đã giúp tôi tìm kiếm những món quần áo phù hợp với gu thẩm mỹ của mình. Đặc biệt, dịch vụ giao hàng nhanh chóng và đáng tin cậy.</p>
+                                        <p>Nhân viên phục vụ rất tận tâm và nhiệt tình, họ đã giúp tôi tìm kiếm những món phụ kiện và những đôi Giày phù hợp với gu thẩm mỹ của mình. Đặc biệt, dịch vụ giao hàng nhanh chóng và đáng tin cậy.</p>
                                         <div class="line"></div>
                                         <strong class="name">Mai Linh</strong>
                                     </div>
@@ -659,19 +657,33 @@
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member3.jpg') }}"
                                                 alt="testimonials img"> </div>
-                                        <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop quần áo này. Những mẫu quần áo tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách. Chất liệu tốt và cắt may tỉ mỉ,.</p>
+                                        <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách. Chất liệu tốt,.</p>
                                         <div class="line"></div>
-                                        <strong class="name">John Doe</strong>
+                                        <strong class="name">Thanh Huyền</strong>
                                     </div>
                                     <div class="holder">
                                         <div class="thumb"> <img
                                                 src="{{ asset('frontend/images/member4.jpg') }}"
                                                 alt="testimonials img"> </div>
-                                        <p>Nhân viên đã tư vấn rất tận tâm, giúp tôi chọn lựa những bộ quần áo phù hợp với phong cách và kích cỡ của mình. Điều đó thực sự làm tôi cảm thấy thoải mái và tự tin khi mặc những sản phẩm từ shop..</p>
+                                        <p>Nhân viên đã tư vấn rất tận tâm, giúp tôi chọn lựa những đôi giày  phù hợp với phong cách và kích cỡ của mình. Điều đó thực sự làm tôi cảm thấy thoải mái và tự tin khi sử dụng những sản phẩm từ shop..</p>
                                         <div class="line"></div>
-                                        <strong class="name">Stephen Doe</strong>
+                                        <strong class="name">Minh Khang</strong>
                                     </div>
+                                    <div class="holder">
+                                        <div class="thumb"> <img
+                                                src="{{ asset('frontend/images/member4.jpg') }}"
+                                                alt="testimonials img"> </div>
+                                        <p>Nhân viên đã tư vấn rất tận tâm, tư vấn rất nhiệt tình về mẫu mã sản phẩm. Điều đó thực sự làm tôi cảm thấy rất hài lòng về những sản phẩm từ shop..</p>
+                                        <div class="line"></div>
+                                        <strong class="name">Đức Đạt</strong>
                                 </div>
+                                <div class="holder">
+                                        <div class="thumb"> <img
+                                                src="{{ asset('frontend/images/member3.jpg') }}"
+                                                alt="testimonials img"> </div>
+                                        <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách. Chất liệu tốt,.</p>
+                                        <div class="line"></div>
+                                        <strong class="name">Vũ Tuấn An</strong>
                             </div>
                         </div>
                     </div>
@@ -697,45 +709,45 @@
     <div class="row">
         <div class="blog-outer-container">
             <div class="block-title">
-                <h2>Latest Blog</h2>
+                <h2>Blog mới nhất</h2>
             </div>
             <div class="blog-inner">
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="entry-thumb image-hover2">
-                        <a href="blog_single_post.html"> <img alt="Blog"
+                        <a href="#!"> <img alt="Blog"
                                 src="{{ asset('frontend/images/blog-img3.jpg') }}" width="550px" height="255.46px"> </a>
                     </div>
                     <div class="blog-preview_info">
-                    <h4 class="blog-preview_title"><a href="blog_single_post.html">Hướng dẫn chọn mua điên thoại</a></h4>
+
+                    <h4 class="blog-preview_title"><a href="#!">Hướng dẫn chọn giày đá bóng</a></h4>
+
                          <ul class="post-meta">
                              <li><i class="fa fa-user"></i>được đăng bởi <a href="#">admin</a></li>
                              <li><i class="fa fa-comments"></i><a href="#">8 nhận xét</a></li>
                              <li><i class="fa fa-clock-o"></i><span class="day">12</span> <span
-                                     class="tháng">Tháng hai</span></li>
+                                     class="tháng">Tháng 2</span></li>
                          </ul>
-                         <div class="blog-preview_desc">Lid est workingum dolo rumes fugats untras. Etharums ser
-                             quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers
-                             nụ cười.</div>
-                         <a class="blog-preview_btn" href="blog_single_post.html">ĐỌC THÊM</a>
+                         <div class="blog-preview_desc">Giày đá bóng là một phụ kiện không thể thiếu đối với các cầu thủ bóng đá. Việc lựa chọn đúng size giày sẽ giúp các cầu thủ có được sự thoải mái, linh hoạt và bảo vệ tốt cho đôi chân của mình. Để có thể chọn được đúng kích cỡ, bạn cần thực hiện một số bước chuẩn bị cần thiết, đo và xác định kiểu chân cũng như kích thước bàn chân.</div>
+                         <a class="blog-preview_btn" href="#!">XEM THÊM</a>
                      </div>
                  </div>
                  <div class="col-lg-6 col-md-6 col-sm-6">
                      <div class="entry-thumb image-hover2">
-                         <a href="blog_single_post.html"> <img alt="Blog"
+                         <a href="#!"> <img alt="Blog"
                          src="{{ asset('frontend/images/blog-img2.jpg') }}" width="550px" height="255.46px"> </a>
                      </div>
                      <div class="blog-preview_info">
-                         <h4 class="blog-preview_title"><a href="#">Top 5 samsung rẻ nhất</a></h4>
+                         <h4 class="blog-preview_title"><a href="#">Top 5 mẫu thiết kế đẹp nhất</a></h4>
                          <ul class="post-meta">
                              <li><i class="fa fa-user"></i>được đăng bởi <a href="#">admin</a></li>
                              <li><i class="fa fa-comments"></i><a href="#">4 nhận xét</a></li>
                              <li><i class="fa fa-clock-o"></i><span class="day">25</span> <span
                                      class="tháng">Tháng 1</span></li>
                          </ul>
-                         <div class="blog-preview_desc">Ut tellus dolor, dapibus eget, elementum vel, cursus
-                             tinh hoa, ưu tú. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.
-                             Donec sit amet eros.</div>
-                         <a class="blog-preview_btn" href="blog_single_post.html">ĐỌC THÊM</a>
+                         <div class="blog-preview_desc">Đến đời thứ 3 thì đã có cực nhiều thay đổi về thiết kế cũng như form giày rồi, Adidas Ultra Boost 3.0 có phần upper cấu trúc hai bên sườn được sửa đổi đôi chút, nhằm tăng khả năng hỗ trợ, ôm chân cũng như độ thoáng khí của giày sneaker.
+
+Hầu hết những tín đồ đều nhận định phiên bản này không quá khác biệt nhiều so với đời thứ 2, tuy nhiên những ai chơi sành thì mới nhận ra sản phẩm có nhiều thay đổi rất tích cực cho người dùng..</div>
+                         <a class="blog-preview_btn" href="#!">XEM THÊM</a>
                      </div>
                 </div>
             </div>

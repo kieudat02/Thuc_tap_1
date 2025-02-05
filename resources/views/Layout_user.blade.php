@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <!-- Favicons Icon -->
     
-    <title>Giay - @yield('title')</title>
+    <title>HanoiSneaker® Official(Chính Thức) - @yield('title')</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -378,7 +378,7 @@
                                  <!-- <span class="separator">/</span>
                                  <div class="feature-box last">
                                      <div class="content">
-                                         <h3>Đường dây nóng +(012) 365-6531</h3>
+                                         <h3>Đường dây nóng +(84) 456-6531</h3>
                                      </div>
                                  </div> -->
                              </div>
@@ -463,10 +463,10 @@
                                      <i class="add-icon">&nbsp;</i>123 Main Street, Anytown, <br>
                                      &nbsp;CA 12345 Hoa Kỳ
                                  </địa chỉ>
-                                 <div class="phone-footer"><i class="phone-icon">&nbsp;</i> +(012) 365-6531
+                                 <div class="phone-footer"><i class="phone-icon">&nbsp;</i> +(084) 456-7891
                                  </div>
                                  <div class="email-footer"><i class="email-icon">&nbsp;</i> <a
-                                         href="mailto:abc@magikcommerce.com">abc@magikcommerce.com</a> </div>
+                                         href="mailto:shop@giaydep.com">shop@giaydep.com</a> </div>
                              </div>
                         </div>
                     </div>
@@ -875,7 +875,7 @@
                                             <div class="add-to-box">
                                                 <div class="add-to-cart">
                                                     <div class="pull-left">
-                                                        <div class="custom pull-left"> <span class="qty-label">QTY:</span>
+                                                        <div class="custom pull-left"> <span class="qty-label">Số lượng</span>
                                                             <button
                                                                 onClick="var result = document.getElementById('qty{{ $pro_show->product_id }}'); var qty = result.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 0 ) result.value--;return false;"
                                                                 class="reduced items-count" type="button"><i
