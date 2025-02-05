@@ -459,10 +459,10 @@
                          <div class="col-md-3 col-sm-6">
                              <h4>liên hệ với chúng tôi</h4>
                              <div class="contacts-info">
-                                 <địa chỉ>
+                                <p>Địa chỉ
                                      <i class="add-icon">&nbsp;</i>123 Main Street, Anytown, <br>
                                      &nbsp;CA 12345 Hoa Kỳ
-                                 </địa chỉ>
+                                </p>
                                  <div class="phone-footer"><i class="phone-icon">&nbsp;</i> +(084) 456-7891
                                  </div>
                                  <div class="email-footer"><i class="email-icon">&nbsp;</i> <a
