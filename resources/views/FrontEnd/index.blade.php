@@ -720,7 +720,9 @@
                                 src="{{ asset('frontend/images/blog-img3.jpg') }}" width="550px" height="255.46px"> </a>
                     </div>
                     <div class="blog-preview_info">
+
                     <h4 class="blog-preview_title"><a href="#!">Hướng dẫn chọn giày đá bóng</a></h4>
+
                          <ul class="post-meta">
                              <li><i class="fa fa-user"></i>được đăng bởi <a href="#">admin</a></li>
                              <li><i class="fa fa-comments"></i><a href="#">8 nhận xét</a></li>
