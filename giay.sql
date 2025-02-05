@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 08, 2023 at 05:17 PM
+-- Generation Time: Feb 05, 2025 at 02:05 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -44,11 +44,11 @@ CREATE TABLE `category` (
 --
 
 INSERT INTO `category` (`category_id`, `category_name`, `category_icon`, `category_sub`, `category_slug`, `category_sorting`, `category_status`, `created_at`, `updated_at`) VALUES
-(1, 'Giày nam', 'fa fa-gift', NULL, 'giày-nam', 2, 1, '2021-11-04 04:28:06', '2023-06-08 13:36:58'),
+(1, 'Giày Nike', 'fa fa-gift', NULL, 'Giày-Nike', 1, 1, '2021-11-04 04:28:06', '2023-06-08 13:36:58'),
 (2, 'shoes', 'fa fa-gift', 12, 'shoes', 3, 1, '2021-11-04 04:28:06', '2023-06-03 06:05:40'),
-(3, 'Giày nữ', 'fa fa-suitcase', NULL, 'giày-nũ', 1, 1, '2021-11-04 06:08:12', '2023-06-08 13:36:47'),
-(5, 'Balo - túi', 'fa fa-bed', NULL, 'balo-túi', 3, 1, '2021-11-04 07:13:45', '2023-06-08 13:37:09'),
-(6, 'Phụ kiện', 'fa fa-child', NULL, 'phụ-kiẹn', 4, 1, '2021-11-04 07:14:15', '2023-06-08 13:37:32'),
+(3, 'Dép', 'fa fa-suitcase', NULL, 'Dép', 2, 1, '2021-11-04 06:08:12', '2023-06-08 13:36:47'),
+(4, 'Balo', 'fa fa-bed', NULL, 'balo', 3, 1, '2021-11-04 07:13:45', '2023-06-08 13:37:09'),
+(5, 'Phụ kiện', 'fa fa-child', NULL, 'phụ-kiẹn', 4, 1, '2021-11-04 07:14:15', '2023-06-08 13:37:32'),
 (10, 'CLOTHING', 'fa fa-gift', 1, 'clothing', 1, 1, '2021-11-05 10:54:32', '2021-11-08 07:25:26'),
 (11, 'JWELLERY', 'fa fa-gift', 1, 'jwellery', 4, 2, '2021-11-05 11:08:16', '2023-06-03 06:05:51'),
 (12, 'SWIMWEAR', 'fa fa-gift', 1, 'swimwear', 2, 1, '2021-11-05 11:08:44', '2021-11-08 07:25:26'),
@@ -981,7 +981,6 @@ CREATE TABLE `gallery` (
 --
 
 INSERT INTO `gallery` (`gallery_id`, `pro_id`, `gallery_image`, `created_at`, `updated_at`) VALUES
-(1, 1, 'default.jpg', '2021-11-06 06:49:33', '2021-11-06 06:49:33'),
 (2, 2, '86_1636428063_d8fe93960d1a72c0d25d9709a2da6e4b.jpg', '2021-11-06 07:00:53', '2021-11-09 03:21:03'),
 (3, 3, 'default.jpg', '2021-11-06 08:29:42', '2021-11-06 08:29:42'),
 (4, 2, '19_1636428068_d1641e5f93723973affeec6217b19d45.jpg', '2021-11-06 09:36:24', '2021-11-09 03:21:08'),
@@ -1008,7 +1007,8 @@ INSERT INTO `gallery` (`gallery_id`, `pro_id`, `gallery_image`, `created_at`, `u
 (30, 9, '6481dbc944557_1686232009_mwc (1).jpg', '2023-06-08 13:46:49', '2023-06-08 13:46:49'),
 (31, 10, '1686236120_mwcn.jpg', '2023-06-08 14:55:20', '2023-06-08 14:55:20'),
 (32, 10, '6481ebec5cc93_1686236140_mwcw.jpg', '2023-06-08 14:55:40', '2023-06-08 14:55:40'),
-(33, 10, '6481ebecb6399_1686236140_mwcn.jpg', '2023-06-08 14:55:40', '2023-06-08 14:55:40');
+(33, 10, '6481ebecb6399_1686236140_mwcn.jpg', '2023-06-08 14:55:40', '2023-06-08 14:55:40'),
+(34, 11, '1738743599_1686232675_mwcl.jpg', '2025-02-05 08:19:59', '2025-02-05 08:19:59');
 
 -- --------------------------------------------------------
 
@@ -1117,7 +1117,6 @@ INSERT INTO `orderdetail` (`orderdetail_id`, `order_code`, `pro_id`, `order_de_p
 (11, 852782478, 2, 250000, 1, 'no', 0, '2023-05-27 07:19:08', '2023-05-27 07:19:08'),
 (12, 1826005711, 2, 250000, 1, 'no', 1, '2023-05-27 07:25:08', '2023-06-03 04:25:19'),
 (16, 1207338438, 5, 3, 1, 'no', 0, '2023-06-02 17:17:19', '2023-06-02 17:17:19'),
-(17, 1207338438, 1, 2100000, 1, 'no', 0, '2023-06-02 17:17:19', '2023-06-02 17:17:19'),
 (18, 1126023702, 6, 34000000, 1, 'no', 0, '2023-06-02 17:32:12', '2023-06-02 17:32:12'),
 (19, 238337867, 8, 11000000, 1, 'no', 1, '2023-06-03 04:23:14', '2023-06-03 04:25:39'),
 (20, 147332760, 6, 34000000, 2, 'no', 0, '2023-06-03 06:00:54', '2023-06-03 06:00:54'),
@@ -1175,16 +1174,17 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`product_id`, `product_name`, `product_slug`, `category_id`, `product_desc`, `product_price`, `product_price_sale`, `product_quantity`, `product_view`, `product_image`, `product_sold`, `product_status`, `created_at`, `updated_at`) VALUES
-(1, 'Giày Thể Thao Nam MWC NATT- 5430 Giày Thể Thao Nam Cao Cấp, Sneaker Nam Cổ Thấp Năng Động Cá Tính', 'giay-the-thao-nam-mwc-natt-5430-giay-the-thao-nam-cao-cap-sneaker-nam-co-thap-nang-dong-ca-tinh', 1, 'product 1', 2100000, 0, 123, 130, '1686232675_mwcl.jpg', 2, 1, '2021-11-06 06:49:33', '2023-06-08 15:02:35'),
-(2, 'Giày Thể Thao Nam MWC NATT- 5442 Giày Thể Thao Nam Cao Cấp, Sneaker Nam Cổ Thấp Năng Động Cá Tính', 'giay-the-thao-nam-mwc-natt-5442-giay-the-thao-nam-cao-cap-sneaker-nam-co-thap-nang-dong-ca-tinh', 1, '<ul>\r\n	<li>xxx</li>\r\n</ul>', 9000000, 250000, 119, 115, '1686232644_mwcn.jpg', 4, 1, '2021-11-15 05:24:28', '2023-06-08 15:02:40'),
-(3, 'Chai Xịt Bóng Giày MWC - 9013', 'chai-xit-bong-giay-mwc-9013', 6, 'product 3', 3500000, 0, 124, 21, '1686232557_mwcp.jpg', 0, 1, '2021-11-08 08:29:42', '2023-06-08 14:01:24'),
+(1, 'Nike Air Force 1 White Low ', 'Nike-Air-Force-1-White-Low ', 1, 'Sản phẩm 1', 2400000, 2000000, 100, 1011, '1686232675_mwcl.jpg', 200, 1, '2021-02-04 15:18:08', '2025-02-04 15:36:13'),
+(2, 'Giày Thể Thao Nam MWC NATT- 5442 Giày Thể Thao Nam Cao Cấp, Sneaker Nam Cổ Thấp Năng Động Cá Tính', 'giay-the-thao-nam-mwc-natt-5442-giay-the-thao-nam-cao-cap-sneaker-nam-co-thap-nang-dong-ca-tinh', 1, '<ul>\r\n	<li>xxx</li>\r\n</ul>', 9000000, 250000, 119, 115, '1686232644_mwcn.jpg', 4, 2, '2021-11-15 05:24:28', '2025-02-05 09:14:38'),
+(3, 'Chai Xịt Bóng Giày MWC - 9013', 'chai-xit-bong-giay-mwc-9013', 5, 'product 3', 3500000, 0, 124, 21, '1686232557_mwcp.jpg', 0, 2, '2021-11-08 08:29:42', '2025-02-05 09:14:39'),
 (4, 'Giày búp bê MWC NUBB- 2289 Giày Búp Bê Phối Xích Xinh Xắn Đính Ngọc Cách Điệu Thời Trang', 'giay-bup-be-mwc-nubb-2289-giay-bup-be-phoi-xich-xinh-xan-dinh-ngoc-cach-dieu-thoi-trang', 3, '<p><strong>ttt</strong></p>', 32000000, 0, 125, 5, '1686232607_mwcw.jpg', 0, 2, '2021-11-08 08:38:38', '2023-06-03 13:56:47'),
 (5, 'Giày thể thao nữ MWC - 0672 Giày Thể Thao Nữ,Sneaker Da Siêu Êm Chân Đế Độn 4CM Hot Trend', 'giày-thẻ-thao-nũ-mwc-0672-giay-the-thao-nusneaker-da-sieu-em-chan-de-don-4cm-hot-trend', 3, '<ul>\r\n	<li>\r\n	<p><strong>xxcccc</strong></p>\r\n	</li>\r\n</ul>', 340000, 3, 252, 15, '1686232388_mwcx.jpg', 4, 2, '2021-11-08 08:59:07', '2023-06-08 14:54:45'),
-(6, 'Giày Sandal Nữ MWC - 2798 Sandal Đế Bằng Phối Màu Siêu Cute,Hack Dáng Phối Lưới Với 2 Quai Ngang Lót Dán Thời Trang', 'giay-sandal-nu-mwc-2798-sandal-de-bang-phoi-mau-sieu-cutehack-dang-phoi-luoi-voi-2-quai-ngang-lot-dan-thoi-trang', 3, 'xxxxxxxxxxxxxxxxxxxxxxxxxxx', 45000000, 34000000, 219, 16, '1686232501_mwce.jpg', 3, 1, '2023-06-02 17:20:40', '2023-06-08 15:02:07'),
-(7, 'Giày Thể Thao Nam MWC - 5417 Giày Thể Thao Nam Phối Sọc Thể Thao, Sneaker Nam Cổ Thấp Năng Động Cá Tính', 'giay-the-thao-nam-mwc-5417-giay-the-thao-nam-phoi-soc-the-thao-sneaker-nam-co-thap-nang-dong-ca-tinh', 1, '<p>xx</p>', 780000, 600000, 54, 10, '1686232465_mwcz.jpg', 1, 1, '2023-06-03 04:17:02', '2023-06-08 14:22:19'),
-(8, 'Vớ nam nữ MWC - AT44', 'vo-nam-nu-mwc-at44', 6, 'xxx', 560000, 450000, 60, 11, '1686232093_mwc (5).jpg', 6, 1, '2023-06-03 04:21:59', '2023-06-08 15:02:04'),
-(9, 'Giày thể thao nữ MWC - 0167 Giày Thể Thao Nữ Đế Bằng Phối Vải,Sneaker Vải Siêu Êm Chân Hot Trend', 'giày-thẻ-thao-nũ-mwc-0167-giay-the-thao-nu-de-bang-phoi-vaisneaker-vai-sieu-em-chan-hot-trend', 3, '<p style=\"text-align:start\"><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\"><strong>M&Ocirc; TẢ SẢN PHẨM</strong></span></span></span></p>\r\n\r\n<ul>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Gi&agrave;y thể thao nữ đế bằng c&oacute; thiết kế kiểu d&aacute;ng buộc d&acirc;y sneaker cực ngầu,phối vải mềm mịn,c&ugrave;ng những gam m&agrave;u trẻ trung, năng động .Chất liệu bền bỉ hỗ trợ vận động tốt v&agrave; bảo vệ đ&ocirc;i ch&acirc;n cho người mang, gi&agrave;y c&oacute; t&iacute;nh năng tho&aacute;ng kh&iacute;, gi&uacute;p c&acirc;n bằng nhiệt v&agrave; độ ẩm trong những điều kiện m&ocirc;i trường kh&aacute;c nhau.Mẫu gi&agrave;y n&agrave;y lấy cảm hứng từ c&aacute;c phong c&aacute;ch thể thao huyền thoại trong qu&aacute; khứ v&agrave; đưa đến tương lai.&nbsp;</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Gi&agrave;y mang phong c&aacute;ch h&agrave;ng ng&agrave;y với th&acirc;n gi&agrave;y bằng da mượt m&agrave;. Form gi&agrave;y thon gọn kiểu d&aacute;ng năng động trẻ trung, ph&ugrave; hợp với mọi trang phục từ jean, &acirc;u đến quần sooc. mang lại cảm gi&aacute;c tự tin cho người d&ugrave;ng.</span></span></span></li>\r\n</ul>\r\n\r\n<p style=\"text-align:start\"><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\"><strong>CHI TIẾT SẢN PHẨM</strong></span></span></span></p>\r\n\r\n<p style=\"text-align:start\">&nbsp;</p>\r\n\r\n<ul>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Chiều cao gi&agrave;y 2cm</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Chất liệu da PU cao cấp phối vải Canvas</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Chất liệu đế cao su đ&uacute;c &ecirc;m mềm, độ đ&agrave;n hồi tốt, chống trơn trượt</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Kiểu d&aacute;ng gi&agrave;y thể thao cổ thấp</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">M&agrave;u sắc:Full Đen/ Trắng/Đen/Đỏ Đ&ocirc;/T&iacute;m/XanhL/Xanh Đ/X&aacute;m/V&agrave;ng</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Size: 36 - 37 - 38 - 39 - 40</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Xuất xứ: Việt Nam</span></span></span></li>\r\n</ul>', 9000000, 8000000, 54, 10, '1686231572_mwc.jpg', 1, 1, '2023-06-03 06:04:29', '2023-06-08 15:02:17'),
-(10, 'demo them sp', 'demo-them-sp', 3, 'xxx', 6700000, 5000000, 55, 0, '1686236120_mwcn.jpg', 0, 1, '2023-06-08 14:55:20', '2023-06-08 14:55:20');
+(6, 'Giày Sandal Nữ MWC - 2798 Sandal Đế Bằng Phối Màu Siêu Cute,Hack Dáng Phối Lưới Với 2 Quai Ngang Lót Dán Thời Trang', 'giay-sandal-nu-mwc-2798-sandal-de-bang-phoi-mau-sieu-cutehack-dang-phoi-luoi-voi-2-quai-ngang-lot-dan-thoi-trang', 3, 'xxxxxxxxxxxxxxxxxxxxxxxxxxx', 45000000, 34000000, 219, 18, '1738746519_1686154615_cong-tac-vien-banner.jpg', 3, 2, '2023-06-02 17:20:40', '2025-02-05 09:14:35'),
+(7, 'Giày Thể Thao Nam MWC - 5417 Giày Thể Thao Nam Phối Sọc Thể Thao, Sneaker Nam Cổ Thấp Năng Động Cá Tính', 'giay-the-thao-nam-mwc-5417-giay-the-thao-nam-phoi-soc-the-thao-sneaker-nam-co-thap-nang-dong-ca-tinh', 1, '<p>xx</p>', 780000, 600000, 54, 10, '1686232465_mwcz.jpg', 1, 2, '2023-06-03 04:17:02', '2025-02-05 09:14:33'),
+(8, 'Vớ nam nữ MWC - AT44', 'vo-nam-nu-mwc-at44', 5, 'xxx', 560000, 450000, 60, 11, '1686232093_mwc (5).jpg', 6, 2, '2023-06-03 04:21:59', '2025-02-05 09:14:28'),
+(9, 'Giày thể thao nữ MWC - 0167 Giày Thể Thao Nữ Đế Bằng Phối Vải,Sneaker Vải Siêu Êm Chân Hot Trend', 'giày-thẻ-thao-nũ-mwc-0167-giay-the-thao-nu-de-bang-phoi-vaisneaker-vai-sieu-em-chan-hot-trend', 3, '<p style=\"text-align:start\"><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\"><strong>M&Ocirc; TẢ SẢN PHẨM</strong></span></span></span></p>\r\n\r\n<ul>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Gi&agrave;y thể thao nữ đế bằng c&oacute; thiết kế kiểu d&aacute;ng buộc d&acirc;y sneaker cực ngầu,phối vải mềm mịn,c&ugrave;ng những gam m&agrave;u trẻ trung, năng động .Chất liệu bền bỉ hỗ trợ vận động tốt v&agrave; bảo vệ đ&ocirc;i ch&acirc;n cho người mang, gi&agrave;y c&oacute; t&iacute;nh năng tho&aacute;ng kh&iacute;, gi&uacute;p c&acirc;n bằng nhiệt v&agrave; độ ẩm trong những điều kiện m&ocirc;i trường kh&aacute;c nhau.Mẫu gi&agrave;y n&agrave;y lấy cảm hứng từ c&aacute;c phong c&aacute;ch thể thao huyền thoại trong qu&aacute; khứ v&agrave; đưa đến tương lai.&nbsp;</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Gi&agrave;y mang phong c&aacute;ch h&agrave;ng ng&agrave;y với th&acirc;n gi&agrave;y bằng da mượt m&agrave;. Form gi&agrave;y thon gọn kiểu d&aacute;ng năng động trẻ trung, ph&ugrave; hợp với mọi trang phục từ jean, &acirc;u đến quần sooc. mang lại cảm gi&aacute;c tự tin cho người d&ugrave;ng.</span></span></span></li>\r\n</ul>\r\n\r\n<p style=\"text-align:start\"><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\"><strong>CHI TIẾT SẢN PHẨM</strong></span></span></span></p>\r\n\r\n<p style=\"text-align:start\">&nbsp;</p>\r\n\r\n<ul>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Chiều cao gi&agrave;y 2cm</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Chất liệu da PU cao cấp phối vải Canvas</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Chất liệu đế cao su đ&uacute;c &ecirc;m mềm, độ đ&agrave;n hồi tốt, chống trơn trượt</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Kiểu d&aacute;ng gi&agrave;y thể thao cổ thấp</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">M&agrave;u sắc:Full Đen/ Trắng/Đen/Đỏ Đ&ocirc;/T&iacute;m/XanhL/Xanh Đ/X&aacute;m/V&agrave;ng</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Size: 36 - 37 - 38 - 39 - 40</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Xuất xứ: Việt Nam</span></span></span></li>\r\n</ul>', 9000000, 8000000, 54, 10, '1686231572_mwc.jpg', 1, 2, '2023-06-03 06:04:29', '2025-02-05 09:14:31'),
+(10, 'demo them sp', 'demo-them-sp', 3, 'xxx', 6700000, 5000000, 55, 0, '1686236120_mwcn.jpg', 0, 2, '2023-06-08 14:55:20', '2025-02-05 09:14:22'),
+(11, 'Nike', 'nike', 3, 'aaaa', 1000, 0, 2, 0, '1738743599_1686232675_mwcl.jpg', 0, 2, '2025-02-05 08:19:59', '2025-02-05 09:14:20');
 
 -- --------------------------------------------------------
 
@@ -1314,7 +1314,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `username`, `email`, `password`, `level`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'admin', 'admin@gmail.com', '$2y$10$io74k3TRC6rkwU3..NKJeOg.xxsWBNZP7OiI1vbgTxCl8qSwo1p2G', 2, NULL, '2021-11-03 04:26:02', '2023-06-08 15:06:55'),
+(1, 'admin', 'admin', 'admin@gmail.com', '$2y$10$io74k3TRC6rkwU3..NKJeOg.xxsWBNZP7OiI1vbgTxCl8qSwo1p2G', 2, NULL, '2021-11-03 04:26:02', '2025-02-05 10:54:05'),
 (2, 'test', 'test', 'test@gmail.com', '$2y$10$yGv9zg//XHmUuEBp6SDtaOFF6vCH3N42vIYePbkTTR6Wk7RpiAuZS', 1, NULL, '2021-11-04 04:31:50', '2021-11-04 04:31:50'),
 (4, 'nnnn', 'nnnn', 'nnnn@gmail.com', '$2y$10$oMxhuPdC/JD0diFB9.sQKe3YptI.nD0KYiLozfE8S4QL4nPBNYiTW', 1, '3GMXpw98HpgWZK4kpzaFrXDoweMBimvVxB9BCGYzs3FCTHTgAdwFFu0er1uz', '2023-05-27 07:14:34', '2023-05-27 07:14:34'),
 (5, 'xxxx1', 'xxxx1', 'xxxx1@gmail.com', '$2y$10$TMxjAo0nv1xGebu9cbNB2.Y2cb7fnCzNrxx96aM8v9q9jsew3QMIW', 1, 'kFwLBFuK05oIwVbU1DF0MftKqCZyUjWtH38YknT2tg5nt6ah7US1Uq2AYILN', '2023-05-31 12:46:11', '2023-06-03 06:03:37'),
@@ -1324,7 +1324,8 @@ INSERT INTO `users` (`id`, `name`, `username`, `email`, `password`, `level`, `re
 (11, 'demouser', 'demouser', 'demouser@gmail.com', '$2y$10$OwwCFQ.7JDP/wL.pnMMwzukOlXsTenSrcLWuhIlDsQfTR9Y/OkiU.', 1, NULL, '2023-06-03 06:03:17', '2023-06-03 06:03:17'),
 (12, 'democode', 'democode', 'democode@gmail.com', '$2y$10$MOf33CObf0fhEwf1jYKQHOUTVX/xzeq1YqNyeB/oWJqJHvLkRLbAq', 1, 'YzzKaYa54k4nlMBvofGo9N8UzH7H5HqZbdaTHO6SaDh7TloSBh68SvVjORGU', '2023-06-08 14:13:45', '2023-06-08 14:13:45'),
 (13, 'democode1', 'democode1', 'democode1@gmail.com', '$2y$10$ZUWYhTEoe4DNuH1zuaGDj./gtd2glo/v6SYbPCV07KQKG0KsWWeNS', 1, 'JxY3ya4Q3wzkIRzPYcZcpkxLXtk1IEDOj3Zf83MS316R8tVCr6md2RMTUEPD', '2023-06-08 14:19:33', '2023-06-08 14:19:33'),
-(14, 'demo3', 'demo3', 'demo3@gmail.com', '$2y$10$xRbF4LNZVTDu.ORB2ihKieFzHkq9gf3kLXBob25onNtL/N/eD37CC', 1, 'RqxbsAw5ZhhDpeljDWXr94V9FtIo0vVDNSFJz8y4zeDnPK4abTQ7chGHTHLQ', '2023-06-08 14:32:22', '2023-06-08 14:32:22');
+(14, 'demo3', 'demo3', 'demo3@gmail.com', '$2y$10$xRbF4LNZVTDu.ORB2ihKieFzHkq9gf3kLXBob25onNtL/N/eD37CC', 1, 'RqxbsAw5ZhhDpeljDWXr94V9FtIo0vVDNSFJz8y4zeDnPK4abTQ7chGHTHLQ', '2023-06-08 14:32:22', '2023-06-08 14:32:22'),
+(15, 'Kiều Duy Đạt', 'azor2001', 'anh373195@gmail.com', '$2y$10$Jjsn7CMwAYb129LDkzUxU.w/K.EJBY6Sm3LmxtMgMqaNhB0gardgS', 1, '8vfT4wuuoj4nzmk8iSoEuhf535KTFFkLiCWu3bZdGkUswXCKyIsWOAVj3gb8', '2025-02-03 12:14:20', '2025-02-03 12:14:20');
 
 -- --------------------------------------------------------
 
@@ -12725,7 +12726,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `gallery_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `gallery_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -12749,7 +12750,7 @@ ALTER TABLE `orderdetail`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `product_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `product_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `reviews`
@@ -12773,7 +12774,7 @@ ALTER TABLE `statistical`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `wards`

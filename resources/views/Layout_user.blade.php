@@ -896,7 +896,7 @@
 
                                             </div>
                                             <div class="short-description">
-                                                <h2>Quick Overview</h2>
+                                                <h2>Tổng quan nhanh</h2>
                                                 <span style="text-align: justify;">{!! substr($pro_show->product_desc, 0, 450) !!}...</span>
                                             </div>
                                             <div class="email-addto-box">

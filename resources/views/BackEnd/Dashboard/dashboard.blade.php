@@ -148,7 +148,7 @@
             <div class="col-lg-6">
                <div class="ibox ">
                   <div class="ibox-title">
-                     <h5>Statistical</h5>
+                     <h5>Thống kê</h5>
                      <div class="ibox-tools">
                         <a class="collapse-link">
                         <i class="fa fa-chevron-up"></i>
