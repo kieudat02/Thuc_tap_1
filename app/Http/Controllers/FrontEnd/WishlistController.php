@@ -71,7 +71,7 @@ class WishlistController extends Controller
                         <td class="wishlist-cell4 customer-wishlist-item-cart">
                             <div class="cart-cell">
                                 <button class="button btn-cart formCart" title="Add to Cart" type="button" data-id="'. $wish->product_id .'">
-                                    <span><span>Add to Cart</span></span>
+                                    <span><span></span></span>
                                 </button>
                             </div>
                         </td>
