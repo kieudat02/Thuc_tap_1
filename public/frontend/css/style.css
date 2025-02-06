@@ -3582,8 +3582,8 @@ nav {
 .category-description .slider-items-products .owl-buttons a {
     z-index: 1;
     position: absolute;
-    left: 10px;
-    top: 0px;
+    left: 23px;
+    top: -5px;
     padding: 5px 3px 10px 0px;
     color: #222;
     font-size: 16px;

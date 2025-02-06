@@ -47,22 +47,22 @@
                                     <!-- Item -->
                                     <div class="item"> <a href="#"><img alt=""
                                                 src="{{ asset('frontend/images/category-img1.jpg') }}"></a>
-                                                <div class="cat-img-title cat-bg cat-box">
+                                                <!-- <div class="cat-img-title cat-bg cat-box">
                                              <div class="small-tag">Thời trang 2016</div>
                                              <h2 class="cat-heading">Bộ sưu tập dành cho nữ</h2>
                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite. </p>
-                                         </div>
+                                         </div> -->
                                      </div>
                                      <!-- Mục Kết thúc -->
 
                                      <!-- Mục -->
                                      <div class="item"><a href="#"><img alt=""
                                      src="{{ asset('frontend/images/category-img2.jpg') }}"></a>
-                                         <div class="cat-img-title cat-bg cat-box">
+                                         <!-- <div class="cat-img-title cat-bg cat-box">
                                              <div class="small-tag">Phong cách đường phố</div>
                                              <h2 class="cat-heading">Mùa mới</h2>
                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elite. </p>
-                                         </div>
+                                         </div> -->
                                          <!-- Mục Kết thúc -->
 
                                     </div>
@@ -180,8 +180,8 @@
                     </div> -->
                     <div class="hot-banner"><img alt="banner"
                             src="{{ asset('frontend/images/hot-trends-banner.jpg') }}"></div>
-                    <div class="hot-banner"><img alt="banner"
-                            src="{{ asset('frontend/images/hot-trends-banner.jpg') }}"></div>
+                    <!-- <div class="hot-banner"><img alt="banner"
+                            src="{{ asset('frontend/images/hot-trends-banner.jpg') }}"></div> -->
                 </aside>
                 <input type="hidden" id="hiden_id_slug" value="{{ $header_id }}">
             </div>

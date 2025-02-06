@@ -69,8 +69,8 @@
                                         <!-- end: more-images -->
                                     </div>
                                     <div class="product-shop col-lg-8 col-sm-7 col-xs-12">
-                                        <div class="product-next-prev"> <a class="product-next" href="#"><span></span></a>
-                                            <a class="product-prev" href="#"><span></span></a> </div>
+                                        <!-- <div class="product-next-prev"> <a class="product-next" href="#"><span></span></a>
+                                            <a class="product-prev" href="#"><span></span></a> </div> -->
                                         <div class="product-name">
                                             <h1>{{ $product_detail->product_name }}</h1>
                                         </div>
@@ -149,7 +149,7 @@
 
                                         </div>
                                         <div class="short-description" style="text-align: justify;">
-                                            <h2>Tổng quan nhanh</h2>
+                                            <h2>Chi tiết sản phẩm</h2>
                                             {!! substr($product_detail->product_desc, 0, 450) !!}...
                                         </div>
                                         <div class="email-addto-box">
