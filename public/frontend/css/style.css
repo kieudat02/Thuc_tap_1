@@ -8455,7 +8455,7 @@ button.button.submit:before {
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 18px;
-    margin: auto;
+    /* margin: auto; */
     text-transform: uppercase;
 }
 
