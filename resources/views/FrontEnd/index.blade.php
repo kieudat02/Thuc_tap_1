@@ -519,31 +519,31 @@
                                         <div class="item active"> <img
                                                 src="{{ asset('frontend/images/custom-slide1.jpg') }}"
                                                 alt="slide3">
-                                            <div class="carousel-caption"> <span>Mega Deal</span>
+                                            <!-- <div class="carousel-caption"> <span>Mega Deal</span>
                                                 <p>Save up to <strong>20% OFF</strong> Điện thoại mới</p>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="item"> <img
                                                 src="{{ asset('frontend/images/custom-slide2.jpg') }}"
                                                 alt="slide2">
-                                            <div class="carousel-caption"> <span>Huge
+                                            <!-- <div class="carousel-caption"> <span>Huge
                                                     <strong>sale</strong></span>
                                                  <p>Save up to <strong>20% OFF</strong> Điện thoại mới</p>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="item"> <img
                                                 src="{{ asset('frontend/images/custom-slide3.jpg') }}"
                                                 alt="slide1">
-                                            <div class="carousel-caption"> <span>Hot
+                                            <!-- <div class="carousel-caption"> <span>Hot
                                                     <strong>Deal</strong></span>
                                                  <p>Save up to <strong>20% OFF</strong> Điện thoại mới</p>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <a class="left carousel-control" href="#" data-slide="prev"> <span
-                                            class="sr-only">Previous</span> </a>
+                                            class="sr-only">Trước</span> </a>
                                     <a class="right carousel-control" href="#" data-slide="next"> <span
-                                            class="sr-only">Next</span> </a>
+                                            class="sr-only">Tiếp</span> </a>
                                 </div>
                             </div>
                         </div>

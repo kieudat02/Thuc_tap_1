@@ -202,7 +202,8 @@
                                         <li class="nosub"><a href="{{ route('home') }}"><i
                                         class="fa fa-home"></i> Trang chủ</a>
                                          </li>
-                                         <li><a href="#"><i class="fa fa-file-text"></i> Trang</a>
+                                         <li>
+                                            <!-- <a href="#"><i class="fa fa-file-text"></i> Trang</a> -->
                                              <div class="wrap-popup">
                                                  <div class="popup">
                                                      <div class="row">

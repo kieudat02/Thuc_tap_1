@@ -97,21 +97,21 @@
                                         <div class="carousel-inner">
                                             <div class="item active"> <img
                                                     src="{{ asset('frontend/images/custom-slide1.jpg') }}" alt="slide3">
-                                                    <div class="carousel-caption"> <span>Siêu ưu đãi lớn</span>
+                                                    <!-- <div class="carousel-caption"> <span>Siêu ưu đãi lớn</span>
                                                      <p>Tiết kiệm tới <strong>GIẢM GIÁ 70%</strong> Bộ sưu tập Fahion</p>
-                                                 </div>
+                                                 </div> -->
                                             </div>
                                             <div class="item"> <img
                                                     src="{{ asset('frontend/images/custom-slide2.jpg') }}" alt="slide2">
-                                                    <div class="carousel-caption"> <span>Giảm giá <strong>khủng</strong></span>
+                                                    <!-- <div class="carousel-caption"> <span>Giảm giá <strong>khủng</strong></span>
                                                      <p>Tiết kiệm tới <strong>GIẢM GIÁ 70%</strong> Bộ sưu tập Fahion</p>
-                                                 </div>
+                                                 </div> -->
                                              </div>
                                             <div class="item"> <img
                                                     src="{{ asset('frontend/images/custom-slide3.jpg') }}" alt="slide1">
-                                                    <div class="carousel-caption"> <span>Ưu đãi <strong>hấp dẫn</strong></span>
+                                                    <!-- <div class="carousel-caption"> <span>Ưu đãi <strong>hấp dẫn</strong></span>
                                                      <p>Tiết kiệm tới <strong>GIẢM GIÁ 70%</strong> Bộ sưu tập Fahion</p>
-                                                 </div>
+                                                 </div> -->
                                              </div>
                                          </div>
                                          <a class="left carousel-control" href="#" data-slide="prev"> <span
@@ -123,7 +123,7 @@
                              </div>
                          </div>
                      </div>
-                     <div class="block-list block-viewed">
+                     <!-- <div class="block-list block-viewed">
                          <div class="block-title"> Đã xem gần đây </div>
                          <div class="block-content">
                              <ol id="recently-viewed-items">
@@ -139,8 +139,8 @@
                                  </li>
                              </ol>
                          </div>
-                     </div>
-                     <div class="block block-poll">
+                     </div> -->
+                     <!-- <div class="block block-poll">
                          <div class="block-title">Thăm dò ý kiến cộng đồng </div>
                         <form id="pollForm" action="#" method="post" onSubmit="return validatePollAnswerIsSelected();">
                             <div class="block-content">
@@ -177,7 +177,9 @@
                                  </div>
                              </div>
                          </form>
-                    </div>
+                    </div> -->
+                    <div class="hot-banner"><img alt="banner"
+                            src="{{ asset('frontend/images/hot-trends-banner.jpg') }}"></div>
                     <div class="hot-banner"><img alt="banner"
                             src="{{ asset('frontend/images/hot-trends-banner.jpg') }}"></div>
                 </aside>
