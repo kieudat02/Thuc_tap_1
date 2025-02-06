@@ -84,7 +84,7 @@
       <div class="col-lg-12">
          <div class="ibox ">
             <div class="ibox-title">
-               <h5>Orders</h5>
+               <h5>Đặt Hàng</h5>
                <div class="float-right">
                   <div class="btn-group">
                    
@@ -133,9 +133,9 @@
                      <table class="table table-hover no-margins">
                         <thead>
                            <tr>
-                              <th>Status</th>
-                              <th>Date</th>
-                              <th>User</th>
+                              <th>Trạng Thái</th>
+                              <th>Ngày</th>
+                              <th>Người Dùng</th>
                            </tr>
                         </thead>
                         <tbody id="auto_refresh_user_status">
@@ -224,12 +224,12 @@
            ],
 
            data: [
-             {label:"Products", value:<?php echo $sp_count ?>},
-             {label:"Order", value:<?php echo $dh_count ?>},
-             {label:"Customer", value:<?php echo $kh_count ?>},
-             {label:"Category", value:<?php echo $dm_count ?>},
-             {label:"Brand", value:<?php echo $th_count ?>},
-             {label:"Slider", value:<?php echo $sl_count ?>}
+             {label:"Sản Phẩm", value:<?php echo $sp_count ?>},
+             {label:"Đặt Hàng", value:<?php echo $dh_count ?>},
+             {label:"Khách Hàng", value:<?php echo $kh_count ?>},
+             {label:"Loại", value:<?php echo $dm_count ?>},
+             {label:"Thương Hiệu", value:<?php echo $th_count ?>},
+             {label:"Thanh Trượt", value:<?php echo $sl_count ?>}
            ]
       });
       var chart = new Morris.Bar({

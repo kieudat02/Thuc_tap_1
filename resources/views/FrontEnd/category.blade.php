@@ -78,11 +78,9 @@
                 <aside class="col-left sidebar col-md-3 col-sm-4 col-xs-12 col-sm-pull-8 col-md-pull-9">
                     <div class="side-banner"><img src="{{ asset('frontend/images/side-banner.jpg') }}" alt="banner">
                     </div>
+                    <!-- <div class="block block-compare" id="loadare">
 
-                    <div class="block block-compare" id="loadare">
-
-                    </div>
-
+                    </div> -->
                     <div class="custom-slider-wrap">
                         <div class="custom-slider-inner">
                             <div class="home-custom-slider">

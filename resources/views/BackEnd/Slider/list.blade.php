@@ -9,7 +9,7 @@
             <div class="col-lg-12">
             <div class="ibox ">
                 <div class="ibox-title">
-                    <h5>Slider</h5>
+                    <h5>Thanh Trượt</h5>
                     <div class="ibox-tools">
                         <a class="collapse-link">
                             <i class="fa fa-chevron-up"></i>
@@ -36,10 +36,10 @@
 	                        <thead>
 		                        <tr style="text-transform: capitalize;">
 		                            <th>ID</th>
-		                            <th>Name</th>
-                                    <th>Image</th>
-		                            <th>Status</th>
-		                            <th>Action</th>
+		                            <th>Tên</th>
+                                    <th>Hình Ảnh</th>
+		                            <th>Trạng Thái</th>
+		                            <th>Hoạt Động</th>
 		                        </tr>
 	                        </thead>
                             <tbody id="sorting_orderby">
@@ -48,10 +48,10 @@
 	                        <tfoot>
 		                        <tr style="text-transform: capitalize;">
 		                            <th>ID</th>
-		                            <th>Name</th>
-		                            <th>Image</th>
-                                    <th>Status</th>
-		                            <th>Action</th>
+		                            <th>Tên</th>
+		                            <th>Hình Ảnh</th>
+                                    <th>Trạng Thái</th>
+		                            <th>Hoạt Động</th>
 		                        </tr>
 	                        </tfoot>
                         </table>
@@ -69,9 +69,9 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content animated bounceInRight">
                 <div class="modal-header">
-                    <button style="margin-top: -5%" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <button style="margin-top: -5%" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Đóng</span></button>
                     <span id="image_show"></span>
-                    <h4 class="modal-title">Edit Slider</h4>
+                    <h4 class="modal-title">Chỉnh sửa thanh trượt</h4>
                     <small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
                 </div>
                 <form id="sample_form" method="POST" enctype="multipart/form-data">
@@ -87,35 +87,35 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Name <sup class="text-danger">*</sup></label>
+                            <label class="col-sm-2 col-form-label">Tên <sup class="text-danger">*</sup></label>
                             <div class="col-sm-10">
                                 {{-- <input type="text" class="form-control" name="name_slider" id="name_slider"> --}}
                                 <textarea data-provide="markdown" rows="5" name="name_slider" id="name_slider"></textarea>
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Content <sup class="text-danger">*</sup></label>
+                            <label class="col-sm-2 col-form-label">Nội Dung <sup class="text-danger">*</sup></label>
                             <div class="col-sm-10">
                                 <textarea data-provide="markdown"  rows="5" name="content" id="content"></textarea>
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Desc <sup class="text-danger">*</sup></label>
+                            <label class="col-sm-2 col-form-label">Mô Tả <sup class="text-danger">*</sup></label>
                             <div class="col-sm-10">
                                 <textarea data-provide="markdown"  rows="5" name="desc" id="desc"></textarea>
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Color <sup class="text-danger">*</sup></label>
+                            <label class="col-sm-2 col-form-label">Màu Sắc <sup class="text-danger">*</sup></label>
                             <div class="col-sm-10">
                                 <select class="form-control" name="slider_change" id="slider_change">
-                                    <option value="1">Black</option>
-                                    <option value="2">White</option>
+                                    <option value="1">Đen</option>
+                                    <option value="2">Trắng</option>
                                 </select>
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Status <sup class="text-danger">*</sup></label>
+                            <label class="col-sm-2 col-form-label">Trạng Thái <sup class="text-danger">*</sup></label>
                             <div class="col-sm-10">
                                 <select class="form-control" name="status" id="status">
                                     <option value="">-----Choose--------</option>
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Image </label>
+                            <label class="col-sm-2 col-form-label">Hình Ảnh </label>
                             <div class="col-sm-10">
                                 <input type="file" class="form-control" name="select_image" id="select_image" accept="image/*" multiple="" onchange="ImagesFileAsURL_2()">
                                 <div id="displayImg" class="displayImg"></div>
@@ -136,7 +136,7 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
                         <input type="hidden" name="action" id="action" />
-                        <button type="submit" name="action_button" id="action_button" class="ladda-button btn btn-primary" data-style="expand-right">Save changes</button>
+                        <button type="submit" name="action_button" id="action_button" class="ladda-button btn btn-primary" data-style="expand-right">Lưu thay đổi</button>
                     </div>
                 </form>
             </div>
@@ -148,18 +148,18 @@
         <div class="modal-dialog">
             <div class="modal-content animated flipInY">
                 <div class="modal-header">
-                    <button style="margin-top: -10%; margin-right: -5%;" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title">Delete</h4>
+                    <button style="margin-top: -10%; margin-right: -5%;" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Đóng</span></button>
+                    <h4 class="modal-title">Xoá</h4>
                     <small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
                 </div>
                 <input type="hidden" name="hidden_id" id="hidden_id">
                 <div class="modal-body">
-                    <p>Are you sure delete "<span id="body"></span>"?</p>
+                    <p>Bạn có chắc chắn xóa không? "<span id="body"></span>"?</p>
                 </div>
                 <form method="POST" id="delete_form">
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-white" data-dismiss="modal">No</button>
-                        <button type="submit" class="ladda-button btn btn-danger" data-style="expand-right" id="del_button">Yes</button>
+                        <button type="button" class="btn btn-white" data-dismiss="modal">Không</button>
+                        <button type="submit" class="ladda-button btn btn-danger" data-style="expand-right" id="del_button">Có</button>
                     </div>
                 </form>
             </div>
@@ -312,7 +312,7 @@
                 $('#displayImg').html('');
                 $("#desc").val("");
                 $("#name_slider").val("");
-                $('.modal-title').text("Add New Record");
+                $('.modal-title').text("Thêm bản ghi mới");
                 $('#action').val("Add");
                 $('#Modal_sample').modal('show');
             });

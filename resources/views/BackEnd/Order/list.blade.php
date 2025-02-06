@@ -6,13 +6,13 @@
 
     <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-10">
-                <h2>Orders</h2>
+                <h2>Đặt Hàng</h2>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="index.html">Home</a>
+                        <a href="index.html">Trang chủ</a>
                     </li>
                     <li class="breadcrumb-item active">
-                        <strong>Orders</strong>
+                        <strong>Đặt Hàng</strong>
                     </li>
                 </ol>
             </div>
@@ -28,7 +28,7 @@
                 <div class="col-sm-8 input-daterange input-group">
                     <div class="col-sm-4">
                         <div class="form-group">
-                            <label class="col-form-label" for="date_added">Date added</label>
+                            <label class="col-form-label" for="date_added">Bộ cộng ngàyd</label>
                             <div class="input-group date">
                                 <span class="input-group-addon" style="width: 20%;"><i class="fa fa-calendar"></i></span>
                                 <input id="start_date" name="start_date" type="text" class="form-control" value="{{Carbon\Carbon::yesterday()->format('Y-m-d')}}">
@@ -37,7 +37,7 @@
                     </div>
                     <div class="col-sm-4" style="margin-left: 19%;">
                         <div class="form-group">
-                            <label class="col-form-label" for="date_modified">Date modified</label>
+                            <label class="col-form-label" for="date_modified">Ngày sửa đổi</label>
                             <div class="input-group date">
                                 <span class="input-group-addon" style="width: 20%;"><i class="fa fa-calendar"></i></span>
                                 <input id="end_date" name="end_date" type="text" class="form-control" value="{{Carbon\Carbon::tomorrow()->format('Y-m-d')}}">
@@ -48,11 +48,11 @@
                 <div class="col-sm-4">
                     <div class="form-group row">
                         <div class="col-sm-2 col-sm-offset-2">
-                            <label class="col-form-label" for="amount" style="color: #fff">Search</label>
+                            <label class="col-form-label" for="amount" style="color: #fff">Tìm Kiếm</label>
                             <input type="button" class="btn btn-outline btn-primary" id="search" value="Search" style="width: 170px">
                         </div>
                         <div class="col-sm-2 col-sm-offset-2" style="margin-left: 31%;">
-                            <label class="col-form-label" for="amount" style="color: #fff">Refresh</label>
+                            <label class="col-form-label" for="amount" style="color: #fff">Làm Lại</label>
                             <input type="button" class="btn btn-outline btn-success" id="refresh" value="Refresh" style="width: 170px">
                         </div>
                     </div>
@@ -73,22 +73,22 @@
                             <thead>
                                 <tr style="text-transform: capitalize;">
                                     <th><input type="checkbox" id="checkAll"></th>
-                                    <th>Code</th>
-                                    <th>Payment</th>
-                                    <th>Name</th>
-                                    <th>Status</th>
-                                    <th>Action</th>
+                                    <th>Mã số</th>
+                                    <th>Sự chi trả</th>
+                                    <th>Tên</th>
+                                    <th>Trạng Thái</th>
+                                    <th>Hoạt Động</th>
                                 </tr>
                             </thead>
 
                             <tfoot>
                                 <tr style="text-transform: capitalize;">
                                     <th><input type="checkbox" id="checkAll_footer"><button id="deleteAllcheck" class="ladda-button btn btn-danger none" data-style="expand-right">Delete</button></th>
-                                    <th>Code</th>
-                                    <th>Payment</th>
-                                    <th>Name</th>
-                                    <th>Status</th>
-                                    <th>Action</th>
+                                    <th>Mã Số</th>
+                                    <th>Chi Trả</th>
+                                    <th>Tên</th>
+                                    <th>Trạng Thái</th>
+                                    <th>Hoạt Động</th>
                                 </tr>
                             </tfoot>
                         </table>
@@ -104,7 +104,7 @@
             <div class="modal-dialog modal-lg">
                 <div class="modal-content animated bounceInRight">
                     <div class="modal-header">
-                        <button style="margin-top: -5%" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <button style="margin-top: -5%" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Đóng</span></button>
                         <span id="image_show"></span>
                         <h4 class="modal-title"></h4>
                         <small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
@@ -114,16 +114,16 @@
                         <div class="modal-body" style="background: #fff">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h4>Customer Information</h4>
+                                    <h4>Thông tin khách hàng</h4>
                                     <table id="load_table" class="table table-striped table-bordered table-hover dataTables-example" >
                                         <thead>
                                             <tr style="text-transform: capitalize;">
-                                                <th>Name</th>
+                                                <th>Tên</th>
                                                 <th>Email</th>
-                                                <th>Phone</th>
-                                                <th>Payment</th>
-                                                <th>Address</th>
-                                                <th>Note</th>
+                                                <th>Số Điện Thoại</th>
+                                                <th>Chi Trả</th>
+                                                <th>Địa chỉ</th>
+                                                <th>Ghi Chú</th>
                                             </tr>
                                         </thead>
                                         <tbody id="vieworder_cus">
@@ -134,16 +134,16 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h4>List Order Details</h4>
+                                    <h4>Chi tiết đơn hàng liệt kê</h4>
                                     <input type="hidden" id="hidden_code">
                                     <table id="load_table" class="table table-striped table-bordered table-hover dataTables-example" >
                                         <thead>
                                             <tr style="text-transform: capitalize;">
-                                                <th>Name</th>
+                                                <th>Tên</th>
                                                 <th>Qty</th>
                                                 <th>Qty Sold</th>
-                                                <th>Coupon</th>
-                                                <th>Price</th>
+                                                <th>Phiếu giảm giá</th>
+                                                <th>Giá</th>
                                             </tr>
                                         </thead>
                                         <tbody id="vieworder">
@@ -161,17 +161,17 @@
                                 <div class="ibox-content">
                                     <div class="form-group">
                                         <select class="form-control" id="value">
-                                            <option value="1">PROCESSING</option>
-                                            <option value="2">BEING TRANSPORTED</option>
-                                            <option class="check PAYMENT" value="3">COMPLETELY PAYMENT</option>
+                                            <option value="1">XỬ LÝ</option>
+                                            <option value="2">ĐƯỢC VẬN CHUYỂN</option>
+                                            <option class="check PAYMENT" value="3">THANH TOÁN HOÀN TOÀN</option>
                                         </select>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-                            <button type="submit" id="save" class="ladda-button btn btn-primary" data-style="expand-right">Save</button>
+                            <button type="button" class="btn btn-white" data-dismiss="modal">Đóng</button>
+                            <button type="submit" id="save" class="ladda-button btn btn-primary" data-style="expand-right">Lưu</button>
                         </div>
                     </form>
                 </div>
@@ -182,18 +182,18 @@
             <div class="modal-dialog">
                 <div class="modal-content animated flipInY">
                     <div class="modal-header">
-                        <button style="margin-top: -10%; margin-right: -5%;" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title">Delete</h4>
+                        <button style="margin-top: -10%; margin-right: -5%;" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Đóng</span></button>
+                        <h4 class="modal-title">Xoá</h4>
                         <small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
                     </div>
                     <input type="hidden" name="hidden_id" id="hidden_id">
                     <div class="modal-body">
-                        <p>Are you sure delete "<span id="body"></span>"?</p>
+                        <p>Bạn Có Chắc Chăn Xoá "<span id="body"></span>"?</p>
                     </div>
                     <form method="POST" id="delete_form">
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-white" data-dismiss="modal">No</button>
-                            <button type="submit" class="ladda-button btn btn-danger" data-style="expand-right" id="del_button">Yes</button>
+                            <button type="button" class="btn btn-white" data-dismiss="modal">Không</button>
+                            <button type="submit" class="ladda-button btn btn-danger" data-style="expand-right" id="del_button">Có</button>
                         </div>
                     </form>
                 </div>

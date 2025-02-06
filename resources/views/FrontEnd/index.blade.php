@@ -722,7 +722,7 @@
                     <h4 class="blog-preview_title"><a href="#!">Hướng dẫn chọn giày đá bóng</a></h4>
 
                          <ul class="post-meta">
-                             <li><i class="fa fa-user"></i>được đăng bởi <a href="#">admin</a></li>
+                             <li><i class="fa fa-"></i>được đăng bởi <a href="#">admin</a></li>
                              <li><i class="fa fa-comments"></i><a href="#">8 nhận xét</a></li>
                              <li><i class="fa fa-clock-o"></i><span class="day">12</span> <span
                                      class="tháng">Tháng 2</span></li>

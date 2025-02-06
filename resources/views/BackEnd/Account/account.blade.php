@@ -6,13 +6,13 @@
 
         <div class="row wrapper border-bottom white-bg page-heading">
             <div class="col-lg-10">
-                <h2>Tables Account</h2>
+                <h2>Bảng Tài Khoản</h2>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a>Account</a>
+                        <a>Tài Khoản</a>
                     </li>
                     <li class="breadcrumb-item active">
-                        <strong>List Account</strong>
+                        <strong>Danh Sách Tài Khoản</strong>
                     </li>
                 </ol>
             </div>
@@ -25,7 +25,7 @@
                 <div class="col-lg-12">
                 <div class="ibox ">
                     <div class="ibox-title">
-                        <h5>Account</h5>
+                        <h5>Tài Khoản</h5>
                         <div class="ibox-tools">
                             <a class="collapse-link">
                                 <i class="fa fa-chevron-up"></i>
@@ -51,11 +51,11 @@
                             <thead>
                             <tr>
                                 <th><input type="checkbox" id="checkAll"></th>
-                                <th>Name</th>
+                                <th>Tên</th>
                                 <th>Email</th>
-                                <th>Status</th>
-                                <th>Level</th>
-                                <th>Action</th>
+                                <th>Trạng Thái</th>
+                                <th>Mức Độ</th>
+                                <th>Hoạt Động</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -64,11 +64,11 @@
                             <tfoot>
                             <tr>
                                 <th><input type="checkbox" id="checkAll_footer"><button id="deleteAllcheck" class="ladda-button btn btn-danger none" data-style="expand-right">Delete</button></th>
-                                <th>Name</th>
+                                <th>Tên</th>
                                 <th>Email</th>
-                                <th>Status</th>
-                                <th>Level</th>
-                                <th>Action</th>
+                                <th>Trạng Thái</th>
+                                <th>Mức Độ</th>
+                                <th>Hoạt Động</th>
                             </tr>
                             </tfoot>
                             </table>
@@ -85,17 +85,17 @@
                 <div class="modal-content animated flipInY">
                     <div class="modal-header">
                         <button style="margin-top: -10%; margin-right: -5%;" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title">Delete</h4>
+                        <h4 class="modal-title">Xoá</h4>
                         <small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
                     </div>
                     <input type="hidden" name="hidden_id_account" id="hidden_id_account">
                     <div class="modal-body">
-                        <p>Are you sure delete "<span id="body_account"></span>"?</p>
+                        <p>Bạn có chắc chắn xóa không? "<span id="body_account"></span>"?</p>
                     </div>
                     <form method="POST" id="delete_account_user">
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-white" data-dismiss="modal">No</button>
-                        <button type="submit" class="ladda-button btn btn-danger" data-style="expand-right">Yes</button>
+                        <button type="button" class="btn btn-white" data-dismiss="modal">Không</button>
+                        <button type="submit" class="ladda-button btn btn-danger" data-style="expand-right">Có</button>
                     </div>
                     </form>
                 </div>
@@ -107,7 +107,7 @@
             <div class="modal-dialog modal-lg">
                 <div class="modal-content animated bounceInRight">
                     <div class="modal-header">
-                        <button style="margin-top: -5%" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <button style="margin-top: -5%" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Đóng</span></button>
                         <span id="image_show_account"></span>
                         <h4 class="modal-title"></h4>
                         <small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
@@ -118,13 +118,13 @@
                             <div class="hr-line-dashed"></div>
                             <input type="hidden" class="form-control" name="account_user_id" id="account_user_id">
                             <div class="form-group row">
-                                <label class="col-sm-2 col-form-label">Name <sup class="text-danger">*</sup></label>
+                                <label class="col-sm-2 col-form-label">Tên <sup class="text-danger">*</sup></label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control" name="name" id="name">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-2 col-form-label">User Name <sup class="text-danger">*</sup></label>
+                                <label class="col-sm-2 col-form-label">Tên Người Dùng <sup class="text-danger">*</sup></label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control" name="user_name" id="user_name">
                                 </div>
@@ -136,13 +136,13 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-2 col-form-label">Password <sup class="text-danger">*</sup></label>
+                                <label class="col-sm-2 col-form-label">Mật khẩu <sup class="text-danger">*</sup></label>
                                 <div class="col-sm-10">
                                     <input type="password" class="form-control" name="password" id="password">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-sm-2 col-form-label">Level <sup class="text-danger">*</sup></label>
+                                <label class="col-sm-2 col-form-label">Mức Độ <sup class="text-danger">*</sup></label>
                                 <div class="col-sm-10">
                                     <select name="level" id="level" class="form-control">
                                         <option value="">Select</option>
@@ -154,9 +154,9 @@
                         </div>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-white" data-dismiss="modal">Đóng</button>
                             <input type="hidden" name="action" id="action">
-                            <button type="submit" class="ladda-button btn btn-primary update_profile" data-style="expand-right">Save changes</button>
+                            <button type="submit" class="ladda-button btn btn-primary update_profile" data-style="expand-right">Lưu thay đổi</button>
                         </div>
                     </form>
                 </div>
@@ -263,7 +263,7 @@
                 $('#image_show_account').html('');
                 $('#displayImg').html('');
                 $('#Modal_edit').modal('show');
-                $('.modal-title').text("Add New Account");
+                $('.modal-title').text("Thêm tài khoản mới");
                 $('#action').val("Add");
                 $('#password').val('');
             });

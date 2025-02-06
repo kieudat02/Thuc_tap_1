@@ -9,7 +9,7 @@
             <div class="col-lg-12">
             <div class="ibox ">
                 <div class="ibox-title">
-                    <h5>Coupon</h5>
+                    <h5>Phiếu giảm giá</h5>
                     <div class="ibox-tools">
                         <a class="collapse-link">
                             <i class="fa fa-chevron-up"></i>
@@ -36,12 +36,12 @@
                             <thead>
                                 <tr style="text-transform: capitalize;">
                                     <th><input type="checkbox" id="checkAll"></th>
-                                    <th>sale</th>
-                                    <th>code</th>
-                                    <th>condition</th>
-                                    <th>Status</th>
-                                    <th>expiry</th>
-                                    <th>Action</th>
+                                    <th>Giảm Giá</th>
+                                    <th>Mã Giảm Giá</th>
+                                    <th>Tình Trạng</th>
+                                    <th>Trạng thái</th>
+                                    <th>Hết Hạn</th>
+                                    <th>Hoạt động</th>
                                 </tr>
                             </thead>
 
@@ -72,7 +72,7 @@
                 <div class="modal-header">
                     <button style="margin-top: -5%" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                     <span id="image_show"></span>
-                    <h4 class="modal-title">Edit</h4>
+                    <h4 class="modal-title">Chỉnh sửa</h4>
                     <small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
                 </div>
                 <form id="sample_form" method="POST">
@@ -88,13 +88,13 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Code</label>
+                            <label class="col-sm-2 col-form-label">Mã Giảm Giá</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="coupon_code" id="coupon_code">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Date <sup class="text-danger">*</sup></label>
+                            <label class="col-sm-2 col-form-label">Ngày Tháng <sup class="text-danger">*</sup></label>
                             <div class="col-sm-10" id="data_5">
                                 <div class="input-daterange input-group" id="datepicker">
                                     <input type="text" class="form-control-sm form-control" name="coupon_date_start" id="coupon_date_start" value="{{Carbon\Carbon::now()->format('Y/m/d')}}"/>
@@ -104,12 +104,12 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Condition <sup class="text-danger">*</sup></label>
+                            <label class="col-sm-2 col-form-label">Tình trạng <sup class="text-danger">*</sup></label>
                             <div class="col-sm-10">
                                 <select class="form-control" name="coupon_condition" id="coupon_condition">
                                     <option value="">-----Choose--------</option>
-                                    <option value="1">Money</option>
-                                    <option value="2">Percent</option>
+                                    <option value="1">Myone</option>
+                                    <option value="2">Phần Trăm</option>
                                 </select>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
                         <input type="hidden" name="action" id="action" />
-                        <button type="submit" name="action_button" id="action_button" class="ladda-button btn btn-primary" data-style="expand-right">Save changes</button>
+                        <button type="submit" name="action_button" id="action_button" class="ladda-button btn btn-primary" data-style="expand-right">Lưu Thay Đổi</button>
                     </div>
                 </form>
             </div>
@@ -145,18 +145,18 @@
         <div class="modal-dialog">
             <div class="modal-content animated flipInY">
                 <div class="modal-header">
-                    <button style="margin-top: -10%; margin-right: -5%;" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title">Delete</h4>
+                    <button style="margin-top: -10%; margin-right: -5%;" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Đóng</span></button>
+                    <h4 class="modal-title">Xoá</h4>
                     <small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
                 </div>
                 <input type="hidden" name="hidden_id" id="hidden_id">
                 <div class="modal-body">
-                    <p>Are you sure delete "<span id="body"></span>"?</p>
+                    <p>Bạn có chắc chắn xóa không? "<span id="body"></span>"?</p>
                 </div>
                 <form method="POST" id="delete_form">
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-white" data-dismiss="modal">No</button>
-                        <button type="submit" class="ladda-button btn btn-danger" data-style="expand-right" id="del_button">Yes</button>
+                        <button type="button" class="btn btn-white" data-dismiss="modal">Không</button>
+                        <button type="submit" class="ladda-button btn btn-danger" data-style="expand-right" id="del_button">Có</button>
                     </div>
                 </form>
             </div>
@@ -328,7 +328,7 @@
                 $('#show_coupon_sale_number').append('<input disabled="" type="number" name="coupon_sale_number" id="coupon_sale_number" class="form-control">');
                 // $('#coupon_date_start').val(today);
                 // $('#coupon_date_end').val(today);
-                $('.modal-title').text("Add New Coupon");
+                $('.modal-title').text("Thêm phiếu giảm giá mới");
                 $('#action').val("Add");
                 $('#Modal_sample').modal('show');
            });

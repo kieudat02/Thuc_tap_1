@@ -145,7 +145,7 @@
                     <ul class="nav nav-second-level collapse">
                         <li class="{{ route('coupon.index')==$url_canonical ? 'active' : '' }}"><a href="{{ route('coupon.index') }}">Liệt kê phiếu giảm giá</a></li>
                         @if (route('coupon.index')==$url_canonical)
-                        <li><a id="add_coupon">Add Coupon</a></li>
+                        <li><a id="add_coupon">Thêm phiếu giảm giá</a></li>
                         @endif
                     </ul>
                 </li>
