@@ -671,7 +671,7 @@
                                     </div>
                                     <div class="holder">
                                         <div class="thumb"> <img
-                                                src="{{ asset('frontend/images/member6.jpg') }}"
+                                                src="{{ asset('frontend/images/member5.jpg') }}"
                                                 alt="testimonials img"> </div>
                                         <p>Nhân viên đã tư vấn rất tận tâm, tư vấn rất nhiệt tình về mẫu mã sản phẩm. Điều đó thực sự làm tôi cảm thấy rất hài lòng về những sản phẩm từ shop.</p>
                                         <div class="line"></div>
@@ -679,7 +679,7 @@
                                 </div>
                                 <div class="holder">
                                         <div class="thumb"> <img
-                                                src="{{ asset('frontend/images/member5.jpg') }}"
+                                                src="{{ asset('frontend/images/member7jpg') }}"
                                                 alt="testimonials img"> </div>
                                         <p>Tôi muốn chia sẻ rằng tôi đã có một trải nghiệm mua sắm tuyệt vời tại shop Giày này. Những mẫu Giày tại đây không chỉ đa dạng về kiểu dáng mà còn rất phong cách.</p>
                                         <div class="line"></div>
@@ -715,7 +715,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="entry-thumb image-hover2">
                         <a href="#!"> <img alt="Blog"
-                                src="{{ asset('frontend/images/blog-img3.jpg') }}" width="550px" height="255.46px"> </a>
+                                src="{{ asset('frontend/images/blog-img5.jpg') }}" width="550px" height="255.46px"> </a>
                     </div>
                     <div class="blog-preview_info">
 
@@ -734,7 +734,7 @@
                  <div class="col-lg-6 col-md-6 col-sm-6">
                      <div class="entry-thumb image-hover2">
                          <a href="#!"> <img alt="Blog"
-                         src="{{ asset('frontend/images/blog-img2.jpg') }}" width="550px" height="255.46px"> </a>
+                         src="{{ asset('frontend/images/blog-img6.jpg') }}" width="550px" height="255.46px"> </a>
                      </div>
                      <div class="blog-preview_info">
                          <h4 class="blog-preview_title"><a href="#">Top 5 mẫu thiết kế đẹp nhất</a></h4>
@@ -744,9 +744,7 @@
                              <li><i class="fa fa-clock-o"></i><span class="day">25</span> <span
                                      class="tháng">Tháng 1</span></li>
                          </ul>
-                         <div class="blog-preview_desc">Đến đời thứ 3 thì đã có cực nhiều thay đổi về thiết kế cũng như form giày rồi, Adidas Ultra Boost 3.0 có phần upper cấu trúc hai bên sườn được sửa đổi đôi chút, nhằm tăng khả năng hỗ trợ, ôm chân cũng như độ thoáng khí của giày sneaker.
-
-Hầu hết những tín đồ đều nhận định phiên bản này không quá khác biệt nhiều so với đời thứ 2, tuy nhiên những ai chơi sành thì mới nhận ra sản phẩm có nhiều thay đổi rất tích cực cho người dùng..</div>
+                         <div class="blog-preview_desc">Để Sở hữu một mẫu giày khá năng động với thiết kế hoàn trộn giữa cổ điển với hiện đại thì không ai khác chính là Nike Air Max 95 này. Với cấu hình giày có dạng hướng về phía trước và hai bên giày đối xứng với dòng logo Nike được thêu cực tỉ mỉ tạo nên một ấn tượng cực lớn từ người nhìn. Một phiên bản được phối tone màu Navy đặc sắc, logo có tone màu đen trên nền trắng đơn giản cùng vào đó là một chút xạnh navy tạo nên một sự tính toán cực kì kỹ lưỡng đến từ Nike khiến người hâm mộ nhìn vào phải tan chảy....</div>
                          <a class="blog-preview_btn" href="#!">XEM THÊM</a>
                      </div>
                 </div>
