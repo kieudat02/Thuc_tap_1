@@ -851,7 +851,7 @@
                                                     <div class="rating width80"></div>
                                                 </div>
                                                 <p class="rating-links"> <a href="#">1 Review(s)</a> <span
-                                                        class="separator">|</span> <a href="#">Add Your Review</a>
+                                                        class="separator">|</span> <a href="#">Thêm Đánh giá của bạn</a>
                                                 </p>
                                             </div>
                                             <div class="price-block">

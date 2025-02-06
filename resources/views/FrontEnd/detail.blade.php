@@ -83,10 +83,10 @@
                                             <i  style="color: #dcdcdc;" class="fa fa-star"></i>
                                             @endfor
                                             @else
-                                             <span style="font-size: 12px;color: #a8acaf;">No Ranting</span>
+                                             <span style="font-size: 12px;color: #a8acaf;">Không có đánh giá</span>
                                             @endif
-                                            <p class="rating-links"> <a href="#">{{ count($review) }} Review(s)</a> <span
-                                                    class="separator">|</span> <a href="#">Add Your Review</a> </p>
+                                            <p class="rating-links"> <a href="#">{{ count($review) }} Đánh Giá(s)</a> <span
+                                                    class="separator">|</span> <a href="#">Thêm Đánh giá của bạn</a> </p>
                                         </div>
                                         <div class="price-block">
                                             <div class="price-box">
@@ -240,7 +240,7 @@
                                         <div class="tab-pane fade" id="reviews_tabs">
                                             <div class="box-collateral box-reviews" id="customer-reviews">
                                                 <div class="box-reviews2" >
-                                                    <h3>Customer Reviews</h3>
+                                                    <h3>Đánh giá của khách hàng</h3>
                                                     <div class="box visible">
                                                         <ul id="loadReviews">
                                                             {{--  @if (count($review) > 0)
