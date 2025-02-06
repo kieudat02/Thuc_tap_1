@@ -77,7 +77,7 @@ class DetailController extends Controller
             }else{
                 $output .='
                     <div class="actions">
-                        <a class="button view-all disabled" id="revies-button" href="#"><span><span>No Data Found</span></span></a>
+                        <a class="button view-all disabled" id="revies-button" href="#"><span><span>Không tìm thấy dữ liệu</span></span></a>
                     </div>
                 ';
             }
