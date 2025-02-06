@@ -840,9 +840,9 @@
                                             <!-- end: more-images -->
                                         </div>
                                         <div class="product-shop col-lg-8 col-sm-7 col-xs-12">
-                                            <div class="product-next-prev"> <a class="product-next"
+                                            <!-- <div class="product-next-prev"> <a class="product-next"
                                                     href="#"><span></span></a> <a class="product-prev"
-                                                    href="#"><span></span></a> </div>
+                                                    href="#"><span></span></a> </div> -->
                                             <div class="product-name">
                                                 <h1>{{ $pro_show->product_name }}</h1>
                                             </div>
