@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicons Icon -->
-    
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend/images/logo.png')}}">
     <title>HanoiSneaker® Official(Chính Thức) - @yield('title')</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Mobile Specific -->
