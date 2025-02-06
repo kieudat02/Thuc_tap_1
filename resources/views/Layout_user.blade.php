@@ -922,12 +922,12 @@
                                                     <li>
                                                         <span class="separator">|</span>
                                                         <a class="link-compare add_compare" data-compare_id="{{ $pro_show->product_id }}">
-                                                            <span>Add to Compare</span>
+                                                            <span>Thêm vào so sánh</span>
                                                         </a>
                                                     </li>
                                                 </ul>
-                                                <p class="email-friend"><a href="#"><span>Email to a
-                                                            Friend</span></a></p>
+                                                <p class="email-friend"><a href="#"><span>Email cho
+                                                            Bạn Bè</span></a></p>
                                             </div>
                                             <div class="social">
                                                 <ul class="link">
