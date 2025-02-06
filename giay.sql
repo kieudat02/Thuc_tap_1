@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 06, 2025 at 03:01 AM
+-- Generation Time: Feb 05, 2025 at 02:05 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `laravel`
+-- Database: `phone`
 --
 
 -- --------------------------------------------------------
@@ -992,6 +992,10 @@ INSERT INTO `gallery` (`gallery_id`, `pro_id`, `gallery_image`, `created_at`, `u
 (10, 6, '1685726440_(600x600)_14pro_max_trang_600x600_didongmy.png', '2023-06-02 17:20:40', '2023-06-02 17:20:40'),
 (11, 6, '647a250c2bf7d_1685726476_xiaomi-redmi-12c-grey-thumb-600x600.jpg', '2023-06-02 17:21:16', '2023-06-02 17:21:16'),
 (13, 6, '647a251f6f5d7_1685726495_vivo-v25-5g-vang-thumb-1-1-600x600.jpg', '2023-06-02 17:21:35', '2023-06-02 17:21:35'),
+(14, 7, '28_1685765920_samsung-galaxy-a23-cam-thumb-600x600.jpg', '2023-06-03 04:17:02', '2023-06-03 04:18:40'),
+(15, 7, '647abf1bee786_1685765915_637825310288115049_samsung-galaxy-a53-den-4.jpg', '2023-06-03 04:18:35', '2023-06-03 04:18:35'),
+(16, 7, '647abf2b33428_1685765931_vivo-v25-5g-vang-thumb-1-1-600x600.jpg', '2023-06-03 04:18:51', '2023-06-03 04:18:51'),
+(17, 7, '647abf3347cf9_1685765939_xiaomi-redmi-12c-grey-thumb-600x600.jpg', '2023-06-03 04:18:59', '2023-06-03 04:18:59'),
 (18, 8, '1685766119_10053969-dien-thoai-xiaomi-redmi-a1-2gb-32gb-xanh-duong-1.jpg', '2023-06-03 04:21:59', '2023-06-03 04:21:59'),
 (19, 8, '647abff56a0ad_1685766133_10053969-dien-thoai-xiaomi-redmi-a1-2gb-32gb-xanh-duong-1.jpg', '2023-06-03 04:22:13', '2023-06-03 04:22:13'),
 (20, 8, '647abff905733_1685766137_80b1056794c6b1ccfe44653589bc53a0.jpg_720x720q80.jpg', '2023-06-03 04:22:17', '2023-06-03 04:22:17'),
@@ -1004,66 +1008,7 @@ INSERT INTO `gallery` (`gallery_id`, `pro_id`, `gallery_image`, `created_at`, `u
 (31, 10, '1686236120_mwcn.jpg', '2023-06-08 14:55:20', '2023-06-08 14:55:20'),
 (32, 10, '6481ebec5cc93_1686236140_mwcw.jpg', '2023-06-08 14:55:40', '2023-06-08 14:55:40'),
 (33, 10, '6481ebecb6399_1686236140_mwcn.jpg', '2023-06-08 14:55:40', '2023-06-08 14:55:40'),
-(35, 12, '1738761375_NIKE_DUNK_LOW_SB_TRD_SUMMIT_WHITE_1-768x768.jpg', '2025-02-05 13:16:16', '2025-02-05 13:16:16'),
-(36, 12, '67a364cd40e60_1738761421_NIKE_DUNK_LOW_SB_TRD_SUMMIT_WHITE_3-768x768.jpg', '2025-02-05 13:17:01', '2025-02-05 13:17:01'),
-(37, 12, '67a364cd71c2f_1738761421_NIKE_DUNK_LOW_SB_TRD_SUMMIT_WHITE_4-768x768.jpg', '2025-02-05 13:17:01', '2025-02-05 13:17:01'),
-(38, 12, '67a3660093b75_1738761728_NIKE_DUNK_LOW_SB_TRD_SUMMIT_WHITE_2.jpg', '2025-02-05 13:22:08', '2025-02-05 13:22:08'),
-(39, 11, '67a3672c4e411_1738762028_4-1.jpg', '2025-02-05 13:27:08', '2025-02-05 13:27:08'),
-(40, 11, '67a3672c77ab8_1738762028_5-1.jpg', '2025-02-05 13:27:08', '2025-02-05 13:27:08'),
-(41, 11, '67a3673236086_1738762034_6-1.jpg', '2025-02-05 13:27:14', '2025-02-05 13:27:14'),
-(42, 11, '67a367325a8eb_1738762034_9.jpg', '2025-02-05 13:27:14', '2025-02-05 13:27:14'),
-(43, 11, '67a3691647927_1738762518_9.jpg', '2025-02-05 13:35:18', '2025-02-05 13:35:18'),
-(48, 7, '67a36de2520e8_1738763746_17-4-860x860.jpg', '2025-02-05 13:55:46', '2025-02-05 13:55:46'),
-(49, 7, '67a36de27b5c3_1738763746_18-4-860x860.jpg', '2025-02-05 13:55:46', '2025-02-05 13:55:46'),
-(50, 7, '67a36de3e06fe_1738763747_19-4-860x860.jpg', '2025-02-05 13:55:47', '2025-02-05 13:55:47'),
-(51, 13, '1738764230_5eeb632ac6407e1e275116-800x800.jpg', '2025-02-05 14:03:50', '2025-02-05 14:03:50'),
-(52, 13, '67a36ffb31439_1738764283_39b3c36b6601de5f871018-800x800.jpg', '2025-02-05 14:04:43', '2025-02-05 14:04:43'),
-(53, 13, '67a36ffb5a29a_1738764283_846cc0b765dddd8384cc19-800x800.jpg', '2025-02-05 14:04:43', '2025-02-05 14:04:43'),
-(54, 13, '67a36ffc6cd88_1738764284_39b3c36b6601de5f871018-800x800.jpg', '2025-02-05 14:04:44', '2025-02-05 14:04:44'),
-(55, 14, '1738764567_Bo-xam_1.jpg', '2025-02-05 14:09:27', '2025-02-05 14:09:27'),
-(56, 15, '1738764697_Backpack-box-17-5-2.jpg', '2025-02-05 14:11:37', '2025-02-05 14:11:37'),
-(57, 15, '67a371bdcdc3f_1738764733_Cookie-Pocket-Backpack-13.jpg', '2025-02-05 14:12:13', '2025-02-05 14:12:13'),
-(58, 15, '67a371be024bd_1738764734_Cookie-Pocket-Backpack-12.jpg', '2025-02-05 14:12:14', '2025-02-05 14:12:14'),
-(59, 15, '67a371beb7ccf_1738764734_Cookie-Pocket-Backpack-15.jpg', '2025-02-05 14:12:14', '2025-02-05 14:12:14'),
-(60, 16, '1738764975_012-I-NEED-SLEEP-BACKPACK-1.jpg', '2025-02-05 14:16:15', '2025-02-05 14:16:15'),
-(61, 16, '67a372c810ec9_1738765000_ineedsleepbackpack-4.jpg', '2025-02-05 14:16:40', '2025-02-05 14:16:40'),
-(62, 16, '67a372c838884_1738765000_ineedsleepbackpack-2.jpg', '2025-02-05 14:16:40', '2025-02-05 14:16:40'),
-(63, 16, '67a372c9177eb_1738765001_ineedsleepbackpack-7.jpg', '2025-02-05 14:16:41', '2025-02-05 14:16:41'),
-(64, 17, '1738765197_p0268186878882-item-9217xf4x0600x0600-m.jpg', '2025-02-05 14:19:57', '2025-02-05 14:19:57'),
-(65, 17, '67a373a56befe_1738765221_p0268186878882-item-7f33xf4x0600x0600-m.jpg', '2025-02-05 14:20:21', '2025-02-05 14:20:21'),
-(66, 17, '67a373a593c1c_1738765221_p0268186878882-item-9217xf4x0600x0600-m.jpg', '2025-02-05 14:20:21', '2025-02-05 14:20:21'),
-(67, 17, '67a373a690611_1738765222_nike-benassi-just-do-it-sandal-343880-3.jpg', '2025-02-05 14:20:22', '2025-02-05 14:20:22'),
-(68, 18, '1738765375_IMG_0050.jpg', '2025-02-05 14:22:55', '2025-02-05 14:22:55'),
-(69, 18, '67a3744e29a24_1738765390_IMG_0051.jpg', '2025-02-05 14:23:10', '2025-02-05 14:23:10'),
-(70, 18, '67a3744e50969_1738765390_IMG_1853.jpg', '2025-02-05 14:23:10', '2025-02-05 14:23:10'),
-(71, 18, '67a3744f8cb4c_1738765391_IMG_1866.jpg', '2025-02-05 14:23:11', '2025-02-05 14:23:11'),
-(72, 19, '1738765492_Nike-Mens-Beige-Asuna-Slide-Sandals01.png', '2025-02-05 14:24:52', '2025-02-05 14:24:52'),
-(73, 19, '67a374c44781e_1738765508_Nike-Mens-Beige-Asuna-Slide-Sandals-02.png', '2025-02-05 14:25:08', '2025-02-05 14:25:08'),
-(74, 19, '67a374c468eb1_1738765508_Nike-Mens-Beige-Asuna-Slide-Sandals-03.png', '2025-02-05 14:25:08', '2025-02-05 14:25:08'),
-(75, 19, '67a374c52ef61_1738765509_Nike-Mens-Beige-Asuna-Slide-Sandals-04.png', '2025-02-05 14:25:09', '2025-02-05 14:25:09'),
-(76, 20, '1738765739_Vit-trang_1.jpg', '2025-02-05 14:28:59', '2025-02-05 14:28:59'),
-(77, 20, '67a375c6c8f48_1738765766_Vit-trang_2.jpg', '2025-02-05 14:29:26', '2025-02-05 14:29:26'),
-(78, 20, '67a375c6eb7b1_1738765766_Vit-trang_1.jpg', '2025-02-05 14:29:26', '2025-02-05 14:29:26'),
-(79, 20, '67a375cae2fa0_1738765770_Thu-bong-treo-Moc-gan-chia-khoa-Vit-Trang.jpg', '2025-02-05 14:29:30', '2025-02-05 14:29:30'),
-(80, 20, '67a375cb13d76_1738765771_Vit-trang_3.jpg', '2025-02-05 14:29:31', '2025-02-05 14:29:31'),
-(81, 21, '1738765862_Khi-den_1.jpg', '2025-02-05 14:31:02', '2025-02-05 14:31:02'),
-(82, 21, '67a376416bbac_1738765889_Khi-den_2.jpg', '2025-02-05 14:31:29', '2025-02-05 14:31:29'),
-(83, 21, '67a37641946bd_1738765889_Khi-den_3.jpg', '2025-02-05 14:31:29', '2025-02-05 14:31:29'),
-(84, 21, '67a3764787ef1_1738765895_Khi-den_4.jpg', '2025-02-05 14:31:35', '2025-02-05 14:31:35'),
-(85, 21, '67a37647accb5_1738765895_Khi-den_3.jpg', '2025-02-05 14:31:35', '2025-02-05 14:31:35'),
-(86, 22, '1738766000_Korean-College-Student-Backpack-Balo-Nam-Nu-Balo-Di-Hoc-Balo-Du-Lich-Balo-Dung-Laptop-Den.jpg', '2025-02-05 14:33:20', '2025-02-05 14:33:20'),
-(87, 22, '67a376cbb9ac1_1738766027_Korean-College-Student-Backpack-Balo-Nam-Nu-Balo-Di-Hoc-Balo-Du-Lich-Balo-Dung-Laptop-Den-2-768x768-1.jpg', '2025-02-05 14:33:47', '2025-02-05 14:33:47'),
-(88, 22, '67a376cbdf710_1738766027_Backpack-box-16-1-2.jpg', '2025-02-05 14:33:47', '2025-02-05 14:33:47'),
-(89, 22, '67a376cc80762_1738766028_Korean-College-Student-Backpack-Balo-Nam-Nu-Balo-Di-Hoc-Balo-Du-Lich-Balo-Dung-Laptop-Den.jpg', '2025-02-05 14:33:48', '2025-02-05 14:33:48'),
-(90, 23, '1738766633_nike-air-max-270-black-anthracite-white-ah8050-002-1_1-768x768.jpg', '2025-02-05 14:43:53', '2025-02-05 14:43:53'),
-(91, 23, '67a37936c0435_1738766646_nike-air-max-270-black-anthracite-white-ah8050-002-1_1-768x768.jpg', '2025-02-05 14:44:06', '2025-02-05 14:44:06'),
-(92, 23, '67a37936e7e6a_1738766646_nike-air-max-270-black-anthracite-white-ah8050-002-5-768x768.jpg', '2025-02-05 14:44:06', '2025-02-05 14:44:06'),
-(93, 23, '67a379381415c_1738766648_nike-air-max-270-black-anthracite-white-ah8050-002-6-768x768.jpg', '2025-02-05 14:44:08', '2025-02-05 14:44:08'),
-(94, 23, '67a3793839496_1738766648_nike-air-max-270-black-anthracite-white-ah8050-002-7-768x768.jpg', '2025-02-05 14:44:08', '2025-02-05 14:44:08'),
-(95, 24, '1738767862_IMG_1013.jpg', '2025-02-05 15:04:23', '2025-02-05 15:04:23'),
-(96, 24, '67a37e0f13481_1738767887_IMG_1062.jpg', '2025-02-05 15:04:47', '2025-02-05 15:04:47'),
-(97, 24, '67a37e0f505cc_1738767887_IMG_2256.jpg', '2025-02-05 15:04:47', '2025-02-05 15:04:47'),
-(98, 24, '67a37e10382a9_1738767888_IMG_2263.jpg', '2025-02-05 15:04:48', '2025-02-05 15:04:48');
+(34, 11, '1738743599_1686232675_mwcl.jpg', '2025-02-05 08:19:59', '2025-02-05 08:19:59');
 
 -- --------------------------------------------------------
 
@@ -1229,30 +1174,17 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`product_id`, `product_name`, `product_slug`, `category_id`, `product_desc`, `product_price`, `product_price_sale`, `product_quantity`, `product_view`, `product_image`, `product_sold`, `product_status`, `created_at`, `updated_at`) VALUES
-(1, 'Nike Air Force 1 White Low', 'nike-air-force-1-white-low', 1, '<table>\r\n	<tbody>\r\n		<tr>\r\n			<th>Size</th>\r\n			<td>\r\n			<p>36&nbsp;,&nbsp;37&nbsp;,&nbsp;38&nbsp;,&nbsp;39&nbsp;,&nbsp;40&nbsp;,&nbsp;41&nbsp;,&nbsp;42&nbsp;,&nbsp;43&nbsp;,&nbsp;44&nbsp;,&nbsp;45</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>Loại sản phẩm</th>\r\n			<td>\r\n			<p>Gi&agrave;y sneaker</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>Điểm nổi bật</th>\r\n			<td>\r\n			<p>All White</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>M&agrave;u sắc</th>\r\n			<td>\r\n			<p>Trắng</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>Mức Gi&aacute;</th>\r\n			<td>\r\n			<p>500k-999k</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>Thương hiệu</th>\r\n			<td>\r\n			<p>Nike</p>\r\n			</td>\r\n		</tr>\r\n	</tbody>\r\n</table>', 2400000, 2000000, 100, 1021, '1686232675_mwcl.jpg', 200, 1, '2021-02-04 15:18:08', '2025-02-05 15:51:29'),
+(1, 'Nike Air Force 1 White Low ', 'Nike-Air-Force-1-White-Low ', 1, 'Sản phẩm 1', 2400000, 2000000, 100, 1011, '1686232675_mwcl.jpg', 200, 1, '2021-02-04 15:18:08', '2025-02-04 15:36:13'),
 (2, 'Giày Thể Thao Nam MWC NATT- 5442 Giày Thể Thao Nam Cao Cấp, Sneaker Nam Cổ Thấp Năng Động Cá Tính', 'giay-the-thao-nam-mwc-natt-5442-giay-the-thao-nam-cao-cap-sneaker-nam-co-thap-nang-dong-ca-tinh', 1, '<ul>\r\n	<li>xxx</li>\r\n</ul>', 9000000, 250000, 119, 115, '1686232644_mwcn.jpg', 4, 2, '2021-11-15 05:24:28', '2025-02-05 09:14:38'),
 (3, 'Chai Xịt Bóng Giày MWC - 9013', 'chai-xit-bong-giay-mwc-9013', 5, 'product 3', 3500000, 0, 124, 21, '1686232557_mwcp.jpg', 0, 2, '2021-11-08 08:29:42', '2025-02-05 09:14:39'),
 (4, 'Giày búp bê MWC NUBB- 2289 Giày Búp Bê Phối Xích Xinh Xắn Đính Ngọc Cách Điệu Thời Trang', 'giay-bup-be-mwc-nubb-2289-giay-bup-be-phoi-xich-xinh-xan-dinh-ngoc-cach-dieu-thoi-trang', 3, '<p><strong>ttt</strong></p>', 32000000, 0, 125, 5, '1686232607_mwcw.jpg', 0, 2, '2021-11-08 08:38:38', '2023-06-03 13:56:47'),
 (5, 'Giày thể thao nữ MWC - 0672 Giày Thể Thao Nữ,Sneaker Da Siêu Êm Chân Đế Độn 4CM Hot Trend', 'giày-thẻ-thao-nũ-mwc-0672-giay-the-thao-nusneaker-da-sieu-em-chan-de-don-4cm-hot-trend', 3, '<ul>\r\n	<li>\r\n	<p><strong>xxcccc</strong></p>\r\n	</li>\r\n</ul>', 340000, 3, 252, 15, '1686232388_mwcx.jpg', 4, 2, '2021-11-08 08:59:07', '2023-06-08 14:54:45'),
 (6, 'Giày Sandal Nữ MWC - 2798 Sandal Đế Bằng Phối Màu Siêu Cute,Hack Dáng Phối Lưới Với 2 Quai Ngang Lót Dán Thời Trang', 'giay-sandal-nu-mwc-2798-sandal-de-bang-phoi-mau-sieu-cutehack-dang-phoi-luoi-voi-2-quai-ngang-lot-dan-thoi-trang', 3, 'xxxxxxxxxxxxxxxxxxxxxxxxxxx', 45000000, 34000000, 219, 18, '1738746519_1686154615_cong-tac-vien-banner.jpg', 3, 2, '2023-06-02 17:20:40', '2025-02-05 09:14:35'),
-(7, 'Nike Air Max 90 ‘Cork’ “Blue & White”', 'nike-air-max-90-‘cork’-“blue-white”', 1, '<p>Size : 36&nbsp;,&nbsp;37&nbsp;,&nbsp;38&nbsp;,&nbsp;39&nbsp;,&nbsp;40&nbsp;,&nbsp;41&nbsp;,&nbsp;42&nbsp;,&nbsp;43&nbsp;,&nbsp;44&nbsp;,&nbsp;45<br />\r\nLoại sản phẩm : Gi&agrave;y sneaker<br />\r\nM&agrave;u sắc : Xanh<br />\r\nMức Gi&aacute; : 1tr &ndash; 2tr<br />\r\nThương hiệu : Nike</p>', 1213144, 600000, 54, 19, '1738763692_16-4-860x860.jpg', 1, 1, '2023-06-03 04:17:02', '2025-02-05 15:51:23'),
+(7, 'Giày Thể Thao Nam MWC - 5417 Giày Thể Thao Nam Phối Sọc Thể Thao, Sneaker Nam Cổ Thấp Năng Động Cá Tính', 'giay-the-thao-nam-mwc-5417-giay-the-thao-nam-phoi-soc-the-thao-sneaker-nam-co-thap-nang-dong-ca-tinh', 1, '<p>xx</p>', 780000, 600000, 54, 10, '1686232465_mwcz.jpg', 1, 2, '2023-06-03 04:17:02', '2025-02-05 09:14:33'),
 (8, 'Vớ nam nữ MWC - AT44', 'vo-nam-nu-mwc-at44', 5, 'xxx', 560000, 450000, 60, 11, '1686232093_mwc (5).jpg', 6, 2, '2023-06-03 04:21:59', '2025-02-05 09:14:28'),
 (9, 'Giày thể thao nữ MWC - 0167 Giày Thể Thao Nữ Đế Bằng Phối Vải,Sneaker Vải Siêu Êm Chân Hot Trend', 'giày-thẻ-thao-nũ-mwc-0167-giay-the-thao-nu-de-bang-phoi-vaisneaker-vai-sieu-em-chan-hot-trend', 3, '<p style=\"text-align:start\"><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\"><strong>M&Ocirc; TẢ SẢN PHẨM</strong></span></span></span></p>\r\n\r\n<ul>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Gi&agrave;y thể thao nữ đế bằng c&oacute; thiết kế kiểu d&aacute;ng buộc d&acirc;y sneaker cực ngầu,phối vải mềm mịn,c&ugrave;ng những gam m&agrave;u trẻ trung, năng động .Chất liệu bền bỉ hỗ trợ vận động tốt v&agrave; bảo vệ đ&ocirc;i ch&acirc;n cho người mang, gi&agrave;y c&oacute; t&iacute;nh năng tho&aacute;ng kh&iacute;, gi&uacute;p c&acirc;n bằng nhiệt v&agrave; độ ẩm trong những điều kiện m&ocirc;i trường kh&aacute;c nhau.Mẫu gi&agrave;y n&agrave;y lấy cảm hứng từ c&aacute;c phong c&aacute;ch thể thao huyền thoại trong qu&aacute; khứ v&agrave; đưa đến tương lai.&nbsp;</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Gi&agrave;y mang phong c&aacute;ch h&agrave;ng ng&agrave;y với th&acirc;n gi&agrave;y bằng da mượt m&agrave;. Form gi&agrave;y thon gọn kiểu d&aacute;ng năng động trẻ trung, ph&ugrave; hợp với mọi trang phục từ jean, &acirc;u đến quần sooc. mang lại cảm gi&aacute;c tự tin cho người d&ugrave;ng.</span></span></span></li>\r\n</ul>\r\n\r\n<p style=\"text-align:start\"><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\"><strong>CHI TIẾT SẢN PHẨM</strong></span></span></span></p>\r\n\r\n<p style=\"text-align:start\">&nbsp;</p>\r\n\r\n<ul>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Chiều cao gi&agrave;y 2cm</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Chất liệu da PU cao cấp phối vải Canvas</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Chất liệu đế cao su đ&uacute;c &ecirc;m mềm, độ đ&agrave;n hồi tốt, chống trơn trượt</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Kiểu d&aacute;ng gi&agrave;y thể thao cổ thấp</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">M&agrave;u sắc:Full Đen/ Trắng/Đen/Đỏ Đ&ocirc;/T&iacute;m/XanhL/Xanh Đ/X&aacute;m/V&agrave;ng</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Size: 36 - 37 - 38 - 39 - 40</span></span></span></li>\r\n	<li><span style=\"font-size:10.5pt\"><span style=\"font-family:Arial\"><span style=\"color:#000000\">Xuất xứ: Việt Nam</span></span></span></li>\r\n</ul>', 9000000, 8000000, 54, 10, '1686231572_mwc.jpg', 1, 2, '2023-06-03 06:04:29', '2025-02-05 09:14:31'),
 (10, 'demo them sp', 'demo-them-sp', 3, 'xxx', 6700000, 5000000, 55, 0, '1686236120_mwcn.jpg', 0, 2, '2023-06-08 14:55:20', '2025-02-05 09:14:22'),
-(11, 'Nike Dunk Low Retro “Judge Grey”', 'nike-dunk-low-retro-“judge-grey”', 1, 'Size : 36&nbsp;,&nbsp;37&nbsp;,&nbsp;38&nbsp;,&nbsp;39&nbsp;,&nbsp;40&nbsp;,&nbsp;41&nbsp;,&nbsp;42&nbsp;,&nbsp;43&nbsp;, 46<br />\r\nLoại sản phẩm : Gi&agrave;y sneaker<br />\r\nM&agrave;u sắc : N&acirc;u<br />\r\nMức Gi&aacute; : 1tr &ndash; 2tr<br />\r\nThương hiệu : Nike', 1582922, 0, 2, 7, '1738743599_1686232675_mwcl.jpg', 0, 2, '2025-02-05 08:19:59', '2025-02-05 13:57:44'),
-(12, 'Nike SB Dunk Low Pro Summit White Wolf Grey', 'nike-sb-dunk-low-pro-summit-white-wolf-grey', 1, '<p><span style=\"font-family:Times New Roman,Times,serif\"><span style=\"font-size:16px\">Size : 36&nbsp;,&nbsp;37&nbsp;,&nbsp;38&nbsp;,&nbsp;39&nbsp;,&nbsp;40&nbsp;,&nbsp;41&nbsp;,&nbsp;42&nbsp;,&nbsp;43&nbsp;,&nbsp;44&nbsp;,&nbsp;45<br />\r\nLoại sản phẩm : Gi&agrave;y sneaker<br />\r\nM&agrave;u sắc : Trắng<br />\r\nMức Gi&aacute; : 1tr &ndash; 2tr<br />\r\nThương hiệu : Nike</span></span></p>', 1493000, 1247000, 20, 20, '1738761375_NIKE_DUNK_LOW_SB_TRD_SUMMIT_WHITE_1-768x768.jpg', 0, 1, '2025-02-05 13:16:16', '2025-02-05 15:51:25'),
-(13, 'Nike Air Jordan 1 Low Galactic Jade /', 'nike-air-jordan-1-low-galactic-jade', 1, '<p>Size : 36&nbsp;,&nbsp;37&nbsp;,&nbsp;38&nbsp;,&nbsp;39&nbsp;,&nbsp;40&nbsp;,&nbsp;41&nbsp;,&nbsp;42&nbsp;,&nbsp;43&nbsp;,&nbsp;44&nbsp;,&nbsp;45<br />\r\nLoại sản phẩm : Gi&agrave;y sneaker<br />\r\nM&agrave;u sắc : Trắng<br />\r\nMức Gi&aacute; : 1tr &ndash; 2tr<br />\r\nThương hiệu : Nike</p>\r\n...', 1234567, 0, 64, 4, '1738764230_5eeb632ac6407e1e275116-800x800.jpg', 0, 1, '2025-02-05 14:03:50', '2025-02-05 15:51:27'),
-(14, 'Thú bông treo Bò Xám siêu cute', 'thu-bong-treo-bo-xam-sieu-cute', 5, '<ul>\r\n	<li>Th&uacute; b&ocirc;ng gắn l&ecirc;n t&uacute;i đeo ch&eacute;o, balo.</li>\r\n	<li>Th&iacute;ch hợp cho cả Nam &amp; Nữ.</li>\r\n	<li>Mang phong c&aacute;ch trẻ trung, dễ thương.</li>\r\n	<li>T&ocirc; điểm th&ecirc;m c&aacute; t&iacute;nh khi phối hợp với những phụ kiện thời trang kh&aacute;c.</li>\r\n	<li>Chiều cao: 18 cm.</li>\r\n	<li>Chất liệu: Vải nỉ nhung.</li>\r\n</ul>', 55000, 39000, 2, 1, '1738764567_Bo-xam_1.jpg', 0, 1, '2025-02-05 14:09:27', '2025-02-05 14:27:43'),
-(15, 'Cookie Pocket Backpack – Balo Nam Nữ, Balo du lịch, Balo đi học, Balo đựng laptop – Xanh Lá', 'cookie-pocket-backpack-–-balo-nam-nu-balo-du-lich-balo-di-hoc-balo-dung-laptop-–-xanh-la', 4, '<ul>\r\n	<li>T&ecirc;n sản phẩm:Cookie Pocket Backpack &ndash; Balo c&oacute; nắp dạng t&uacute;i k&egrave;m m&oacute;c kho&aacute; đ&aacute;ng y&ecirc;u</li>\r\n	<li>K&iacute;ch thước: 28 x 18 x 38 cm</li>\r\n	<li>Chất liệu: Nylon, Polyester</li>\r\n	<li>Chức năng: Đi học, đi chơi, đi l&agrave;m</li>\r\n	<li>M&ocirc; tả: Balo nhẹ v&agrave; tho&aacute;ng, chống thấm nước, 1 ngăn lớn, nhiều ngăn phụ, c&oacute; ngăn đựng laptop.</li>\r\n	<li>Ph&ugrave; hợp cho cả nam nữ</li>\r\n</ul>', 450000, 399999, 6, 5, '1738764697_Backpack-box-17-5-2.jpg', 0, 1, '2025-02-05 14:11:37', '2025-02-06 02:00:44'),
-(16, 'I Need Sleep – Balo (Backpack) Local Brand Nam Nữ, Balo Đi Học, Balo Du Lịch', 'i-need-sleep-–-balo-backpack-local-brand-nam-nu-balo-di-hoc-balo-du-lich', 4, '<ul>\r\n	<li>T&ecirc;n sản phẩm: I Need Sleep &ndash; Balo (Backpack) Local Brand Nam Nữ, Balo Đi Học, Balo Du Lịch, Balo Đựng Laptop &ndash; Đen</li>\r\n	<li>K&iacute;ch thước: 31 x 12 x 41 cm</li>\r\n	<li>Chất liệu: Nylon, Polyester</li>\r\n	<li>Chức năng: Đi học, đi chơi, đi l&agrave;m</li>\r\n	<li>M&ocirc; tả: Balo nhẹ v&agrave; tho&aacute;ng, chống thấm nước, 1 ngăn lớn, nhiều ngăn phụ, c&oacute; ngăn đựng laptop.</li>\r\n	<li>Ph&ugrave; hợp cho cả nam nữ</li>\r\n</ul>', 567890, 444444, 2, 0, '1738764975_012-I-NEED-SLEEP-BACKPACK-1.jpg', 0, 1, '2025-02-05 14:16:15', '2025-02-05 14:16:15'),
-(17, 'Dép quai ngang Nike Classic Trắng', 'dep-quai-ngang-nike-classic-trang', 3, '<p>- Ph&ugrave; hợp với mọi người</p>\r\n\r\n<p>- Bảo h&agrave;nh l&ecirc;n đến 6 th&aacute;ng</p>\r\n\r\n<p>- Dễ d&agrave;ng vệ sinh</p>\r\n\r\n<ul>\r\n	<li>Chất liệu: Da tổng hợp bền bỉ</li>\r\n	<li>Đế cao su</li>\r\n	<li>Logo Nike được in ở phần quai ngang</li>\r\n	<li>Logo Nike dập nổi in trực tiếp tr&ecirc;n bề mặt d&eacute;p</li>\r\n	<li>Dễ d&agrave;ng vệ sinh, lau ch&ugrave;i</li>\r\n	<li>M&agrave;u sắc: trắng/đen</li>\r\n	<li>Năm ra mắt: 2018</li>\r\n</ul>', 564888, 350000, 4, 0, '1738765197_p0268186878882-item-9217xf4x0600x0600-m.jpg', 0, 1, '2025-02-05 14:19:57', '2025-02-05 14:19:57'),
-(18, 'Dép Quai Ngang Nike Benassi Just Do It White', 'dep-quai-ngang-nike-benassi-just-do-it-white', 3, '<p>Size : 36&nbsp;,&nbsp;37&nbsp;,&nbsp;38&nbsp;,&nbsp;39&nbsp;,&nbsp;40&nbsp;,&nbsp;41&nbsp;,&nbsp;42&nbsp;,&nbsp;43&nbsp;,&nbsp;44&nbsp;,&nbsp;45</p>\r\n\r\n<p>D&eacute;p&nbsp;<strong>N.i.k.e&nbsp; Benassi &lsquo;Just Do It&rsquo; Slides Trắng</strong>. Ph&ugrave; hợp: nam nữ, đi ngo&agrave;i trời, đi xuống phố, đi trong nh&agrave;, đi chơi. Size: 36-44. Chất liệu: Nhựa tổng hợp. Giao h&agrave;ng to&agrave;n quốc. Bảo h&agrave;nh 3 th&aacute;ng. Đổi trả dễ d&agrave;ng. Streetwear, trẻ trung năng động.</p>\r\n\r\n<p>&nbsp;</p>', 590000, 421000, 5, 2, '1738765375_IMG_0050.jpg', 0, 1, '2025-02-05 14:22:55', '2025-02-05 16:16:34'),
-(19, 'Nike Men’s Beige Asuna Slide Sandals', 'nike-men’s-beige-asuna-slide-sandals', 3, '<table>\r\n	<tbody>\r\n		<tr>\r\n			<th>Size</th>\r\n			<td>\r\n			<p>36&nbsp;,&nbsp;37&nbsp;,&nbsp;38&nbsp;,&nbsp;39&nbsp;,&nbsp;40&nbsp;,&nbsp;41&nbsp;,&nbsp;42&nbsp;,&nbsp;43&nbsp;,&nbsp;44&nbsp;,&nbsp;45</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>Loại sản phẩm</th>\r\n			<td>\r\n			<p>D&eacute;p</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>M&agrave;u sắc</th>\r\n			<td>\r\n			<p>Khaki&nbsp;,&nbsp;Đen</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>Mức Gi&aacute;</th>\r\n			<td>\r\n			<p>Dưới 500k</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>Thương hiệu</th>\r\n			<td>\r\n			<p>Nike</p>\r\n			</td>\r\n		</tr>\r\n	</tbody>\r\n</table>', 567892, 222222, 4, 5, '1738765492_Nike-Mens-Beige-Asuna-Slide-Sandals01.png', 0, 1, '2025-02-05 14:24:52', '2025-02-05 16:16:35'),
-(20, 'Thú bông treo Vịt Trắng dễ thương', 'thu-bong-treo-vit-trang-de-thuong', 5, '<table>\r\n	<tbody>\r\n		<tr>\r\n			<th>Size</th>\r\n			<td>\r\n			<p>ONESIZE</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>Loại sản phẩm</th>\r\n			<td>\r\n			<p>Phụ kiện</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>M&agrave;u sắc</th>\r\n			<td>\r\n			<p>Trắng</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>Mức Gi&aacute;</th>\r\n			<td>\r\n			<p>Dưới 500k</p>\r\n			</td>\r\n		</tr>\r\n		<tr>\r\n			<th>Thương hiệu</th>\r\n			<td>\r\n			<p>HaNoiSneaker</p>\r\n			</td>\r\n		</tr>\r\n	</tbody>\r\n</table>', 59999, 49999, 55, 1, '1738765739_Vit-trang_1.jpg', 0, 1, '2025-02-05 14:28:59', '2025-02-05 14:36:35'),
-(21, 'Thú bông treo Khỉ đen siêu dễ thương', 'thu-bong-treo-khi-den-sieu-de-thuong', 5, '<ul>\r\n	<li>Th&uacute; b&ocirc;ng gắn l&ecirc;n t&uacute;i đeo ch&eacute;o, balo.</li>\r\n	<li>Th&iacute;ch hợp cho cả Nam &amp; Nữ.</li>\r\n	<li>Mang phong c&aacute;ch trẻ trung, dễ thương.</li>\r\n	<li>T&ocirc; điểm th&ecirc;m c&aacute; t&iacute;nh khi phối hợp với những phụ kiện thời trang kh&aacute;c.</li>\r\n	<li>Chiều cao: 12cm.</li>\r\n	<li>Chất liệu: Vải nỉ nhung.</li>\r\n</ul>', 59999, 49999, 4, 2, '1738765862_Khi-den_1.jpg', 0, 1, '2025-02-05 14:31:02', '2025-02-05 14:40:25'),
-(22, 'Korean College Student Backpack – Balo Nam Nữ, Balo Đi Học, Balo Du Lịch, Balo Đựng Laptop – Đen', 'korean-college-student-backpack-–-balo-nam-nu-balo-di-hoc-balo-du-lich-balo-dung-laptop-–-den', 4, '<ul>\r\n	<li>T&ecirc;n sản phẩm: Korean College Student Backpack</li>\r\n	<li>K&iacute;ch thước: 31 x 14 x 44 cm</li>\r\n	<li>Chất liệu: Oxford</li>\r\n	<li>Chức năng: Đi học, đi chơi, đi l&agrave;m</li>\r\n	<li>M&ocirc; tả: Balo nhẹ v&agrave; tho&aacute;ng, chống thấm nước, 2 ngăn lớn, nhiều ngăn phụ, c&oacute; ngăn đựng laptop.</li>\r\n	<li>Ph&ugrave; hợp cho cả nam nữ</li>\r\n</ul>', 395000, 197777, 6, 4, '1738766000_Korean-College-Student-Backpack-Balo-Nam-Nu-Balo-Di-Hoc-Balo-Du-Lich-Balo-Dung-Laptop-Den.jpg', 0, 1, '2025-02-05 14:33:20', '2025-02-05 15:39:43'),
-(23, 'Air Max 270 Black White – Sale Size 36', 'air-max-270-black-white-–-sale-size-36', 1, 'M&ugrave;a h&egrave; năm 2018, Nike ch&iacute;nh thức ra mắt Air Max 270, một trong những đứa con mới nhất của nh&agrave; swoosh d&agrave;nh cho đại gia đ&igrave;nh Air Max. H&atilde;y nhanh ch&oacute;ng sở hữu một đ&ocirc;i Air Max 270, hoặc &iacute;t nhất một lần on feet n&oacute; để cảm nhận sự đột ph&aacute; m&agrave; &ldquo;the swoosh&rdquo; đ&atilde; mang lại cho d&ograve;ng sản phẩm huyền thoại bậc nhất của m&igrave;nh.\r\n<ul>\r\n	<li>Chất liệu upper: Mesh, Da tổng hợp</li>\r\n	<li>Đế gi&agrave;y hỗ trợ tăng chiều cao 3.2 cm</li>\r\n	<li>C&ocirc;ng nghệ đế Air Unit được tối ưu h&oacute;a &ldquo;th&ecirc;m Air&rdquo; để tăng trải nghiệm</li>\r\n	<li>Phần lưỡi g&agrave; s&aacute;ng tạo với logo l&agrave; chữ c&aacute;ch điệu của AIR270</li>\r\n	<li>Dấu swoosh mini được in nổi ở b&ecirc;n h&ocirc;ng gi&agrave;y</li>\r\n	<li>Heel tab được in d&ograve;ng chữ Air c&aacute;ch điệu độc đ&aacute;o</li>\r\n	<li>M&agrave;u sắc: trắng, đen</li>\r\n	<li>Năm ra mắt: 2018</li>\r\n</ul>', 1728888, 788888, 6, 4, '1738766633_nike-air-max-270-black-anthracite-white-ah8050-002-1_1-768x768.jpg', 0, 1, '2025-02-05 14:43:53', '2025-02-05 16:16:43'),
-(24, 'Air Force 1ShadowPaleIvory', 'air-force-1shadowpaleivory', 1, '<p>Size : 36&nbsp;,&nbsp;37&nbsp;,&nbsp;38&nbsp;,&nbsp;39&nbsp;,&nbsp;40&nbsp;,&nbsp;41&nbsp;,&nbsp;42&nbsp;,&nbsp;43&nbsp;,&nbsp;44&nbsp;,&nbsp;45<br />\r\nLoại sản phẩm : Gi&agrave;y sneaker<br />\r\nM&agrave;u sắc : Trắng ng&agrave;/v&agrave;ng/t&iacute;m pastel/xanh l&aacute;<br />\r\nMức Gi&aacute; : 1tr &ndash; 2tr<br />\r\nThương hiệu : Nike</p>\r\n\r\n<p>...</p>', 1959000, 1444444, 6, 2, '1738767862_IMG_1013.jpg', 0, 1, '2025-02-05 15:04:23', '2025-02-05 15:45:04');
+(11, 'Nike', 'nike', 3, 'aaaa', 1000, 0, 2, 0, '1738743599_1686232675_mwcl.jpg', 0, 2, '2025-02-05 08:19:59', '2025-02-05 09:14:20');
 
 -- --------------------------------------------------------
 
@@ -1280,7 +1212,7 @@ INSERT INTO `reviews` (`review_id`, `user_id`, `pro_id`, `review_rating`, `revie
 (7, 1, 2, 4, 'quá oke lu&ocirc;n', '2023-06-03 04:25:19', '2023-06-03 04:25:19'),
 (8, 1, 8, 5, 'quá oke lu&ocirc;n', '2023-06-03 04:25:39', '2023-06-03 04:25:39'),
 (9, 14, 7, 5, 'r&acirc;́t oke 5 sao nha', '2023-06-08 14:59:08', '2023-06-08 14:59:08'),
-(10, 14, 24, 4, 'Sản phẩm rất tốt', '2023-06-08 14:59:16', '2023-06-08 14:59:16');
+(10, 14, 8, 4, 'xxxx', '2023-06-08 14:59:16', '2023-06-08 14:59:16');
 
 -- --------------------------------------------------------
 
@@ -1382,7 +1314,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `username`, `email`, `password`, `level`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'admin', 'admin@gmail.com', '$2y$10$io74k3TRC6rkwU3..NKJeOg.xxsWBNZP7OiI1vbgTxCl8qSwo1p2G', 2, NULL, '2021-11-03 04:26:02', '2025-02-05 15:11:49'),
+(1, 'admin', 'admin', 'admin@gmail.com', '$2y$10$io74k3TRC6rkwU3..NKJeOg.xxsWBNZP7OiI1vbgTxCl8qSwo1p2G', 2, NULL, '2021-11-03 04:26:02', '2025-02-05 10:54:05'),
 (2, 'test', 'test', 'test@gmail.com', '$2y$10$yGv9zg//XHmUuEBp6SDtaOFF6vCH3N42vIYePbkTTR6Wk7RpiAuZS', 1, NULL, '2021-11-04 04:31:50', '2021-11-04 04:31:50'),
 (4, 'nnnn', 'nnnn', 'nnnn@gmail.com', '$2y$10$oMxhuPdC/JD0diFB9.sQKe3YptI.nD0KYiLozfE8S4QL4nPBNYiTW', 1, '3GMXpw98HpgWZK4kpzaFrXDoweMBimvVxB9BCGYzs3FCTHTgAdwFFu0er1uz', '2023-05-27 07:14:34', '2023-05-27 07:14:34'),
 (5, 'xxxx1', 'xxxx1', 'xxxx1@gmail.com', '$2y$10$TMxjAo0nv1xGebu9cbNB2.Y2cb7fnCzNrxx96aM8v9q9jsew3QMIW', 1, 'kFwLBFuK05oIwVbU1DF0MftKqCZyUjWtH38YknT2tg5nt6ah7US1Uq2AYILN', '2023-05-31 12:46:11', '2023-06-03 06:03:37'),
@@ -12794,7 +12726,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `gallery_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=99;
+  MODIFY `gallery_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -12818,7 +12750,7 @@ ALTER TABLE `orderdetail`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `product_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `product_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `reviews`
