@@ -2362,7 +2362,7 @@ nav {
     /* border-left: 2px double #999; */
     /* background: none; */
     margin-left: -41px;
-    margin-top: -5px;
+    margin-top: -15px;
 }
 
 .slider-items-products .owl-buttons .owl-next a:before {
@@ -2526,7 +2526,7 @@ nav {
 .slider-items-products .owl-buttons .owl-prev a {
     background-position: 0 100%;
     border: 1px #1fc0a0 solid;
-    margin-top: -5px;
+    margin-top: -15px;
     margin-left: -45px;
 }
 
@@ -2986,6 +2986,7 @@ nav {
 .new-arrivals-block .block-content {
     padding: 25px 0px;
     padding-bottom: 0px;
+    margin-top: 7px;
 }
 
 #new-arrivals-slider.product-flexslider {
@@ -3581,8 +3582,8 @@ nav {
 .category-description .slider-items-products .owl-buttons a {
     z-index: 1;
     position: absolute;
-    left: 10px;
-    top: 0px;
+    left: 23px;
+    top: -5px;
     padding: 5px 3px 10px 0px;
     color: #222;
     font-size: 16px;

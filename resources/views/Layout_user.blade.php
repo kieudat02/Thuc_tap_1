@@ -840,9 +840,9 @@
                                             <!-- end: more-images -->
                                         </div>
                                         <div class="product-shop col-lg-8 col-sm-7 col-xs-12">
-                                            <div class="product-next-prev"> <a class="product-next"
+                                            <!-- <div class="product-next-prev"> <a class="product-next"
                                                     href="#"><span></span></a> <a class="product-prev"
-                                                    href="#"><span></span></a> </div>
+                                                    href="#"><span></span></a> </div> -->
                                             <div class="product-name">
                                                 <h1>{{ $pro_show->product_name }}</h1>
                                             </div>
@@ -869,7 +869,7 @@
                                                     </p>
                                                     @endif
 
-                                                    <p class="availability in-stock pull-right"><span>In Stock</span>
+                                                    <p class="availability in-stock pull-right"><span>Trong kho</span>
                                                     </p>
                                                 </div>
                                             </div>
@@ -897,7 +897,7 @@
 
                                             </div>
                                             <div class="short-description">
-                                                <h2>Tổng quan nhanh</h2>
+                                                <h2>Chi tiết sản phẩm</h2>
                                                 <span style="text-align: justify;">{!! substr($pro_show->product_desc, 0, 450) !!}...</span>
                                             </div>
                                             <div class="email-addto-box">
