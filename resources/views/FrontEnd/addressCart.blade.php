@@ -61,7 +61,7 @@
                                                         <label class="required" for="payment">Phương Thức Thanh Toán <em>*</em></label>
                                                         <select style="width: 100%; margin-bottom: 2%;" required class="choose_card" name="checkout_payment" id="checkout_payment">
                                                             <option value="">-- Chọn --</option>
-                                                            <option value="COD">Thanh toán khi giao hàng</option>
+                                                            <option value="COD">Thanh toán khi nhận hàng</option>
                                                             <option value="ATM">Thanh toán qua thẻ</option>
                                                         </select>
                                                     </div>

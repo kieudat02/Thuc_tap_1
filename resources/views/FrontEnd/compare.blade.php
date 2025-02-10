@@ -9,7 +9,7 @@
                 <div class="col-sm-12 col-xs-12">
                     <div class="cart">
                         <div class="page-title">
-                            <h2>Compare Products</h2>
+                            <h2>So sánh sản phẩm</h2>
                         </div>
                         <div class="table-responsive">
                             <table class="table table-striped compare-table">
